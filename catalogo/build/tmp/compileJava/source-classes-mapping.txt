@@ -1,2 +1,30 @@
 com/netflix/catalogo/CatalogoApplication.java
  com.netflix.catalogo.CatalogoApplication
+com/netflix/catalogo/repositories/entities/enums/GeneroEnum.java
+ com.netflix.catalogo.repositories.entities.enums.GeneroEnum
+ com.netflix.catalogo.repositories.entities.enums.GeneroEnum$1
+ com.netflix.catalogo.repositories.entities.enums.GeneroEnum$2
+ com.netflix.catalogo.repositories.entities.enums.GeneroEnum$3
+ com.netflix.catalogo.repositories.entities.enums.GeneroEnum$4
+ com.netflix.catalogo.repositories.entities.enums.GeneroEnum$5
+ com.netflix.catalogo.repositories.entities.enums.GeneroEnum$6
+ com.netflix.catalogo.repositories.entities.enums.GeneroEnum$7
+ com.netflix.catalogo.repositories.entities.enums.GeneroEnum$8
+com/netflix/catalogo/repositories/entities/enums/CategoriaEnum.java
+ com.netflix.catalogo.repositories.entities.enums.CategoriaEnum
+ com.netflix.catalogo.repositories.entities.enums.CategoriaEnum$1
+ com.netflix.catalogo.repositories.entities.enums.CategoriaEnum$2
+ com.netflix.catalogo.repositories.entities.enums.CategoriaEnum$3
+com/netflix/catalogo/repositories/entities/CatalogoEntity.java
+ com.netflix.catalogo.repositories.entities.CatalogoEntity
+com/netflix/catalogo/application/usecases/GetCatalogoUseCase.java
+ com.netflix.catalogo.application.usecases.GetCatalogoUseCase
+com/netflix/catalogo/application/services/domains/Catalogo.java
+ com.netflix.catalogo.application.services.domains.Catalogo
+ com.netflix.catalogo.application.services.domains.Catalogo$Builder
+com/netflix/catalogo/interfaces/controllers/CatalogoController.java
+ com.netflix.catalogo.interfaces.controllers.CatalogoController
+com/netflix/catalogo/application/services/domains/CatalogoService.java
+ com.netflix.catalogo.application.services.domains.CatalogoService
+com/netflix/catalogo/repositories/entities/CatalogoRepository.java
+ com.netflix.catalogo.repositories.entities.CatalogoRepository
