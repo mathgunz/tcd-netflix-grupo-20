@@ -1,7 +1,6 @@
 package com.netflix.catalogo.interfaces.controllers;
 
 import com.netflix.catalogo.application.services.domains.Catalogo;
-import com.netflix.catalogo.application.services.domains.Ranking;
 import com.netflix.catalogo.application.usecases.GetCatalogoUseCase;
 import com.netflix.catalogo.repositories.entities.enums.GeneroEnum;
 import org.springframework.web.bind.annotation.*;
