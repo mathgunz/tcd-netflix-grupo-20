@@ -1,14 +1,13 @@
 package com.netflix.catalogo.interfaces.controllers;
 
 import com.netflix.catalogo.application.services.domains.Catalogo;
+import com.netflix.catalogo.application.services.domains.Ranking;
 import com.netflix.catalogo.application.usecases.GetCatalogoUseCase;
 import com.netflix.catalogo.repositories.entities.enums.GeneroEnum;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Optional;
 
 @RequestMapping("/catalogos")
 @RestController
@@ -20,15 +19,17 @@ public class CatalogoController {
         this.getCatalogoUseCase = getCatalogoUseCase;
     }
 
-    @GetMapping("{genero}")
-    public List<Catalogo> get(@PathVariable("{genero}") GeneroEnum genero) {
-        List<Catalogo> catalogos = getCatalogoUseCase.getByGenero(genero);
+    @GetMapping
+    public List<Catalogo> get(@RequestParam(value = "genero", required = false) GeneroEnum genero
+                            , @RequestParam(value = "nome", required = false) String nome) {
+
+        List<Catalogo> catalogos = getCatalogoUseCase.getByGeneroOrNome(genero, nome);
         return catalogos;
     }
 
     @GetMapping("{id}")
     public Catalogo get(@PathVariable("id") Long id) throws Exception {
-        Catalogo catalogo = getCatalogoUseCase.getById(id);
-        return catalogo;
+        Optional<Catalogo> catalogo = getCatalogoUseCase.getById(id);
+        return catalogo.orElseThrow(() -> new RuntimeException("Catalogo não existe."));
     }
 }

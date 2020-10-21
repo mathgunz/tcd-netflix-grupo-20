@@ -1,8 +1,9 @@
-package com.netflix.catalogo.application.services.domains;
+package com.netflix.catalogo.application.services;
 
+import com.netflix.catalogo.application.services.domains.Catalogo;
 import com.netflix.catalogo.application.usecases.GetCatalogoUseCase;
 import com.netflix.catalogo.repositories.entities.CatalogoEntity;
-import com.netflix.catalogo.repositories.entities.CatalogoRepository;
+import com.netflix.catalogo.repositories.CatalogoRepository;
 import com.netflix.catalogo.repositories.entities.enums.GeneroEnum;
 import org.springframework.stereotype.Service;
 
@@ -20,20 +21,20 @@ public class CatalogoService implements GetCatalogoUseCase {
     }
 
     @Override
-    public List<Catalogo> getByGenero(GeneroEnum genero) {
+    public List<Catalogo> getByGeneroOrNome(GeneroEnum genero, String nome) {
 
-        List<CatalogoEntity> resultados = catalogoRepository.findAllByGeneroType(genero.name());
+        List<CatalogoEntity> catalogos = catalogoRepository.findAllByGeneroTypeAndNomeContaining(genero.name(), nome);
 
-        return resultados.stream().map(this::toDomain).collect(Collectors.toList());
+        return catalogos.stream().map(this::toDomain).collect(Collectors.toList());
     }
 
     @Override
-    public Catalogo getById(Long id) throws Exception {
+    public Optional<Catalogo> getById(Long id) throws Exception {
         Optional<CatalogoEntity> result = catalogoRepository.findById(id);
 
         CatalogoEntity catalogoEntity = result.orElseThrow(() -> new Exception("Catalogo não existe.") );
 
-        return toDomain(catalogoEntity);
+        return Optional.of(toDomain(catalogoEntity));
     }
 
     private Catalogo toDomain(CatalogoEntity catalogoEntity) {

@@ -4,6 +4,7 @@ import com.netflix.catalogo.repositories.entities.enums.CategoriaEnum;
 import com.netflix.catalogo.repositories.entities.enums.GeneroEnum;
 
 import javax.persistence.*;
+import java.util.List;
 
 @Entity
 @Table(name="catalogo", schema = "fiap")
@@ -21,9 +22,11 @@ public class CatalogoEntity {
     private String direcao;
     private String urlFilme;
     private String capa;
-    @Column(name = "elenco", columnDefinition = "json")
     private String elenco;
     private Long classificacaoEtaria;
+
+    @OneToMany(mappedBy="catalogoEntity", cascade = CascadeType.ALL)
+    private List<RankingEntity> rankingEntity;
 
     public CatalogoEntity(String nome, String descricao, GeneroEnum generoType, CategoriaEnum categoria, String direcao, String urlFilme, String capa, String elenco, Long classificacaoEtaria) {
         this.nome = nome;
@@ -118,5 +121,13 @@ public class CatalogoEntity {
 
     public void setClassificacaoEtaria(Long classificacaoEtaria) {
         this.classificacaoEtaria = classificacaoEtaria;
+    }
+
+    public List<RankingEntity> getRankingEntity() {
+        return rankingEntity;
+    }
+
+    public void setRankingEntity(List<RankingEntity> rankingEntity) {
+        this.rankingEntity = rankingEntity;
     }
 }
