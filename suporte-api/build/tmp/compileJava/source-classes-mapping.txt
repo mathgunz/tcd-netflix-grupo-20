@@ -1,5 +1,5 @@
-com/netflix/suporte/api/interfaces/controllers/SuporteListener.java
- com.netflix.suporte.api.interfaces.controllers.SuporteListener
+com/netflix/suporte/api/interfaces/controllers/SuporteController.java
+ com.netflix.suporte.api.interfaces.controllers.SuporteController
 com/netflix/suporte/api/interfaces/controllers/dtos/SuporteDto.java
  com.netflix.suporte.api.interfaces.controllers.dtos.SuporteDto
 com/netflix/suporte/api/application/services/domains/PublicarChamadoService.java

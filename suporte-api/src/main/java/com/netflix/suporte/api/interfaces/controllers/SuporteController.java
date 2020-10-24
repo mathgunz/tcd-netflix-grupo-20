@@ -9,11 +9,11 @@ import java.util.Map;
 
 @RequestMapping("/suporte-api")
 @RestController
-public class SuporteListener {
+public class SuporteController {
 
     private final PublicarChamadoUseCase publicarChamadoUseCase;
 
-    public SuporteListener(PublicarChamadoUseCase publicarChamadoUseCase) {
+    public SuporteController(PublicarChamadoUseCase publicarChamadoUseCase) {
         this.publicarChamadoUseCase = publicarChamadoUseCase;
     }
 
