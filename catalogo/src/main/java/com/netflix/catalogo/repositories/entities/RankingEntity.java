@@ -1,6 +1,7 @@
 package com.netflix.catalogo.repositories.entities;
 
 import javax.persistence.*;
+import java.util.Date;
 
 @Entity
 @Table(name="ranking", schema = "fiap")
@@ -15,6 +16,11 @@ public class RankingEntity {
     private CatalogoEntity catalogoEntity;
 
     private Long usuarioId;
+
+    private boolean gostou = true;
+
+    @Temporal(TemporalType.TIMESTAMP)
+    private Date criacao;
 
     public RankingEntity() {
     }
@@ -47,5 +53,21 @@ public class RankingEntity {
 
     public void setCatalogoEntity(CatalogoEntity catalogoEntity) {
         this.catalogoEntity = catalogoEntity;
+    }
+
+    public boolean isGostou() {
+        return gostou;
+    }
+
+    public void setGostou(boolean gostou) {
+        this.gostou = gostou;
+    }
+
+    public Date getCriacao() {
+        return criacao;
+    }
+
+    public void setCriacao(Date criacao) {
+        this.criacao = criacao;
     }
 }

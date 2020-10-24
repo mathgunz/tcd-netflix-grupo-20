@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.Map;
 import java.util.Optional;
 
-@RequestMapping("/catalogos")
+@RequestMapping("/rankings")
 @RestController
 public class RankingController {
 
@@ -23,8 +23,9 @@ public class RankingController {
         this.getRankingUseCase = getRankingUseCase;
     }
 
+
     @PostMapping("{id}/votar")
-    public ResponseEntity get(
+    public ResponseEntity votar(
             @RequestHeader Map<String, String> headers,
             @PathVariable("id") Long id,
             @RequestBody Ranking ranking) throws Exception {
