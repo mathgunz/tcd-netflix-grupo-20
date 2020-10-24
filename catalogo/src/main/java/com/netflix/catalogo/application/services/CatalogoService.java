@@ -4,6 +4,7 @@ import com.netflix.catalogo.application.services.domains.Catalogo;
 import com.netflix.catalogo.application.usecases.GetCatalogoUseCase;
 import com.netflix.catalogo.repositories.entities.CatalogoEntity;
 import com.netflix.catalogo.repositories.CatalogoRepository;
+import com.netflix.catalogo.repositories.entities.RankingEntity;
 import com.netflix.catalogo.repositories.entities.enums.GeneroEnum;
 import org.springframework.stereotype.Service;
 
@@ -38,12 +39,10 @@ public class CatalogoService implements GetCatalogoUseCase {
     }
 
     @Override
-    public void findAllMostRatedByGeneroUseCase() {
+    public List<CatalogoEntity> findAllMostRatedByGeneroUseCase() {
 
         List<CatalogoEntity> catalogs = catalogoRepository.findAll();
-
-//        catalogs.
-
+        return null;
     }
 
     private Catalogo toDomain(CatalogoEntity catalogoEntity) {
