@@ -1,6 +1,7 @@
 package com.netflix.catalogo.repositories;
 
 import com.netflix.catalogo.repositories.entities.CatalogoEntity;
+import com.netflix.catalogo.repositories.entities.enums.GeneroEnum;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
@@ -12,10 +13,8 @@ import java.util.List;
 public interface CatalogoRepository extends JpaRepository<CatalogoEntity, Long> {
 
     @Query("from catalogo " +
-           "where generoType = :generoType " +
-           "or nome like '%:palavraChave%' " +
-           "or categoria like '%:palavraChave%' " +
-           "or direcao like '%:palavraChave%' " +
-           "or elenco like '%:palavraChave%' ")
-    List<CatalogoEntity> findAllByGeneroTypeOuPorPalavraChave(@Param("generoType") String generoType, @Param("palavraChave") String palavraChave);
+           "where " +
+           "generoType = coalesce(cast(:generoType as string), generoType) "
+    )
+    List<CatalogoEntity> findAllByGeneroTypeOuPorPalavraChave(@Param("generoType") String generoType);
 }
