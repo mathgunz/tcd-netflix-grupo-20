@@ -23,7 +23,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a745bcbd-5534-4e13-8850-21d7217d7201" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalogo/.gradle/6.6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/catalogo/.gradle/6.6.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalogo/.gradle/6.6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/catalogo/.gradle/6.6.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalogo/.gradle/6.6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/catalogo/.gradle/6.6.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -31,9 +30,6 @@
       <change beforePath="$PROJECT_DIR$/catalogo/.gradle/6.6.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/catalogo/.gradle/6.6.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalogo/.gradle/6.6.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/catalogo/.gradle/6.6.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalogo/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/catalogo/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogo/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/catalogo/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogo/src/main/java/com/netflix/catalogo/application/services/CatalogoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalogo/src/main/java/com/netflix/catalogo/application/services/CatalogoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogo/src/main/java/com/netflix/catalogo/repositories/CatalogoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalogo/src/main/java/com/netflix/catalogo/repositories/CatalogoRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -214,38 +210,38 @@
       <screen x="1360" y="0" width="2560" height="1080" />
     </state>
     <state width="508" height="506" key="DebuggerActiveHint/1360.0.2560.1080/0.233.1360.768@1360.0.2560.1080" timestamp="1603570575340" />
-    <state width="1377" height="330" key="GridCell.Tab.0.bottom" timestamp="1603579520464">
+    <state width="1377" height="330" key="GridCell.Tab.0.bottom" timestamp="1603579636600">
       <screen x="1360" y="0" width="2560" height="1080" />
     </state>
-    <state width="1377" height="330" key="GridCell.Tab.0.bottom/1360.0.2560.1080/0.233.1360.768@1360.0.2560.1080" timestamp="1603579520464" />
-    <state width="1377" height="330" key="GridCell.Tab.0.center" timestamp="1603579520464">
+    <state width="1377" height="330" key="GridCell.Tab.0.bottom/1360.0.2560.1080/0.233.1360.768@1360.0.2560.1080" timestamp="1603579636600" />
+    <state width="1377" height="330" key="GridCell.Tab.0.center" timestamp="1603579636600">
       <screen x="1360" y="0" width="2560" height="1080" />
     </state>
-    <state width="1377" height="330" key="GridCell.Tab.0.center/1360.0.2560.1080/0.233.1360.768@1360.0.2560.1080" timestamp="1603579520464" />
-    <state width="1377" height="330" key="GridCell.Tab.0.left" timestamp="1603579520464">
+    <state width="1377" height="330" key="GridCell.Tab.0.center/1360.0.2560.1080/0.233.1360.768@1360.0.2560.1080" timestamp="1603579636600" />
+    <state width="1377" height="330" key="GridCell.Tab.0.left" timestamp="1603579636600">
       <screen x="1360" y="0" width="2560" height="1080" />
     </state>
-    <state width="1377" height="330" key="GridCell.Tab.0.left/1360.0.2560.1080/0.233.1360.768@1360.0.2560.1080" timestamp="1603579520464" />
-    <state width="1377" height="330" key="GridCell.Tab.0.right" timestamp="1603579520464">
+    <state width="1377" height="330" key="GridCell.Tab.0.left/1360.0.2560.1080/0.233.1360.768@1360.0.2560.1080" timestamp="1603579636600" />
+    <state width="1377" height="330" key="GridCell.Tab.0.right" timestamp="1603579636600">
       <screen x="1360" y="0" width="2560" height="1080" />
     </state>
-    <state width="1377" height="330" key="GridCell.Tab.0.right/1360.0.2560.1080/0.233.1360.768@1360.0.2560.1080" timestamp="1603579520464" />
-    <state width="1377" height="330" key="GridCell.Tab.1.bottom" timestamp="1603579520464">
+    <state width="1377" height="330" key="GridCell.Tab.0.right/1360.0.2560.1080/0.233.1360.768@1360.0.2560.1080" timestamp="1603579636600" />
+    <state width="1377" height="330" key="GridCell.Tab.1.bottom" timestamp="1603579636069">
       <screen x="1360" y="0" width="2560" height="1080" />
     </state>
-    <state width="1377" height="330" key="GridCell.Tab.1.bottom/1360.0.2560.1080/0.233.1360.768@1360.0.2560.1080" timestamp="1603579520464" />
-    <state width="1377" height="330" key="GridCell.Tab.1.center" timestamp="1603579520464">
+    <state width="1377" height="330" key="GridCell.Tab.1.bottom/1360.0.2560.1080/0.233.1360.768@1360.0.2560.1080" timestamp="1603579636069" />
+    <state width="1377" height="330" key="GridCell.Tab.1.center" timestamp="1603579636069">
       <screen x="1360" y="0" width="2560" height="1080" />
     </state>
-    <state width="1377" height="330" key="GridCell.Tab.1.center/1360.0.2560.1080/0.233.1360.768@1360.0.2560.1080" timestamp="1603579520464" />
-    <state width="1377" height="330" key="GridCell.Tab.1.left" timestamp="1603579520464">
+    <state width="1377" height="330" key="GridCell.Tab.1.center/1360.0.2560.1080/0.233.1360.768@1360.0.2560.1080" timestamp="1603579636069" />
+    <state width="1377" height="330" key="GridCell.Tab.1.left" timestamp="1603579636069">
       <screen x="1360" y="0" width="2560" height="1080" />
     </state>
-    <state width="1377" height="330" key="GridCell.Tab.1.left/1360.0.2560.1080/0.233.1360.768@1360.0.2560.1080" timestamp="1603579520464" />
-    <state width="1377" height="330" key="GridCell.Tab.1.right" timestamp="1603579520464">
+    <state width="1377" height="330" key="GridCell.Tab.1.left/1360.0.2560.1080/0.233.1360.768@1360.0.2560.1080" timestamp="1603579636069" />
+    <state width="1377" height="330" key="GridCell.Tab.1.right" timestamp="1603579636069">
       <screen x="1360" y="0" width="2560" height="1080" />
     </state>
-    <state width="1377" height="330" key="GridCell.Tab.1.right/1360.0.2560.1080/0.233.1360.768@1360.0.2560.1080" timestamp="1603579520464" />
+    <state width="1377" height="330" key="GridCell.Tab.1.right/1360.0.2560.1080/0.233.1360.768@1360.0.2560.1080" timestamp="1603579636069" />
     <state x="1666" y="287" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1603572945740">
       <screen x="1360" y="0" width="2560" height="1080" />
     </state>
@@ -282,16 +278,6 @@
           <url>file://$PROJECT_DIR$/suporte-core/src/main/java/com/netflix/suporte/core/application/services/domains/SuporteService.java</url>
           <line>28</line>
           <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/catalogo/src/main/java/com/netflix/catalogo/application/services/CatalogoService.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="37" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/catalogo/src/main/java/com/netflix/catalogo/interfaces/controllers/CatalogoController.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="38" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
