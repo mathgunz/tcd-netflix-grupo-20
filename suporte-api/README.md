@@ -13,5 +13,9 @@ docker start fiap-postgres
 
 - Criar schema fiap no bando de dados
 
+## Ativando o kafka
+
+- Entrar na pasta docker e executar o comando:
+    docker-compose up
  
  

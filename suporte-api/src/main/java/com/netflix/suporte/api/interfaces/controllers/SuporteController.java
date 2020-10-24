@@ -22,8 +22,8 @@ public class SuporteController {
             @RequestHeader Map<String, String> headers,
             @RequestBody SuporteDto suporte) {
 
-        String userId = headers.get("userId");
-        suporte.setUsuarioId(Long.getLong(userId));
+        String userId = headers.get("user-id");
+        suporte.setUsuarioId(Long.parseLong(userId));
 
         publicarChamadoUseCase.publicar(suporte);
 
