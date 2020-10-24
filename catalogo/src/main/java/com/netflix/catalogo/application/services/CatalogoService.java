@@ -21,9 +21,9 @@ public class CatalogoService implements GetCatalogoUseCase {
     }
 
     @Override
-    public List<Catalogo> getByGeneroOrNome(GeneroEnum genero, String nome) {
+    public List<Catalogo> getByGeneroOuPalavraChave(GeneroEnum genero, String nome) {
 
-        List<CatalogoEntity> catalogos = catalogoRepository.findAllByGeneroTypeAndNomeContaining(genero.name(), nome);
+        List<CatalogoEntity> catalogos = catalogoRepository.findAllByGeneroTypeOuPorPalavraChave(genero.name(), nome);
 
         return catalogos.stream().map(this::toDomain).collect(Collectors.toList());
     }

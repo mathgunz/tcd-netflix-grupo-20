@@ -8,7 +8,7 @@ import java.util.Optional;
 
 public interface GetCatalogoUseCase {
 
-    List<Catalogo> getByGeneroOrNome(GeneroEnum genero, String nome);
+    List<Catalogo> getByGeneroOuPalavraChave(GeneroEnum genero, String nome);
 
     Optional<Catalogo> getById(Long id) throws Exception;
 }

@@ -6,7 +6,7 @@ import com.netflix.catalogo.repositories.entities.enums.GeneroEnum;
 import javax.persistence.*;
 import java.util.List;
 
-@Entity
+@Entity(name = "catalogo")
 @Table(name="catalogo", schema = "fiap")
 public class CatalogoEntity {
 
