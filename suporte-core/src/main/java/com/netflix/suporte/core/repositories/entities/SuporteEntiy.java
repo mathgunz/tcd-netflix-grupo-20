@@ -18,7 +18,10 @@ public class SuporteEntiy {
     private String tipo;
 
     @Temporal(TemporalType.TIMESTAMP)
-    private Date create;
+    private Date criacao;
+
+    public SuporteEntiy() {
+    }
 
     public Long getId() {
         return id;
@@ -52,11 +55,11 @@ public class SuporteEntiy {
         this.tipo = tipo;
     }
 
-    public Date getCreate() {
-        return create;
+    public Date getCriacao() {
+        return criacao;
     }
 
-    public void setCreate(Date create) {
-        this.create = create;
+    public void setCriacao(Date criacao) {
+        this.criacao = criacao;
     }
 }
