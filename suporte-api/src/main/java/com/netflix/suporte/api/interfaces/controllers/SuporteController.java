@@ -17,7 +17,7 @@ public class SuporteController {
         this.publicarChamadoUseCase = publicarChamadoUseCase;
     }
 
-    @PostMapping("abrirChamado")
+    @PostMapping("abrir-chamado")
     public ResponseEntity abrirChamado(
             @RequestHeader Map<String, String> headers,
             @RequestBody SuporteDto suporte) {
