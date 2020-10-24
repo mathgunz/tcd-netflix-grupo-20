@@ -19,7 +19,7 @@ public class CatalogoController {
     }
 
     @GetMapping
-    public List<Catalogo> find(@RequestParam(value = "genero", required = false) GeneroEnum genero
+    public List<Catalogo> findAll(@RequestParam(value = "genero", required = false) GeneroEnum genero
                             , @RequestParam(value = "palavra-chave", required = false) String palavraChave) {
 
         List<Catalogo> catalogos = getCatalogoUseCase.getByGeneroOuPalavraChave(genero, palavraChave);

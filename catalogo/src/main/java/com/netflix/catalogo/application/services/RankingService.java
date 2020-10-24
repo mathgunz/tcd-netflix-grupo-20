@@ -23,11 +23,11 @@ public class RankingService implements GetRankingUseCase {
 
     @Override
     public void votar(Ranking ranking) {
-        Optional<CatalogoEntity> catalogoEntity = catalogoRepository.findById(ranking.getCatalogo().getId());
+        Optional<CatalogoEntity> optional = catalogoRepository.findById(ranking.getCatalogo().getId());
 
-        catalogoEntity.ifPresent(catalogo -> {
-            RankingEntity rankingEntity = new RankingEntity(catalogo, ranking.getUsuarioId());
-            rankingRepository.save(rankingEntity);
-        });
+        CatalogoEntity catalogoEntity = optional.orElseThrow(() -> new RuntimeException("Catalogo não existe."));
+
+        RankingEntity rankingEntity = new RankingEntity(catalogoEntity, ranking.getUsuarioId());
+        rankingRepository.save(rankingEntity);
     }
 }

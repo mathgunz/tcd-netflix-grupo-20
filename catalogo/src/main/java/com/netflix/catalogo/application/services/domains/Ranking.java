@@ -1,14 +1,19 @@
 package com.netflix.catalogo.application.services.domains;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import java.io.Serializable;
 
 public class Ranking implements Serializable {
 
     private Long id;
 
+    @JsonIgnore
     private Catalogo catalogo;
 
     private Long usuarioId;
+
+    private boolean gostou;
 
     public Long getId() {
         return id;
@@ -32,5 +37,13 @@ public class Ranking implements Serializable {
 
     public void setUsuarioId(Long usuarioId) {
         this.usuarioId = usuarioId;
+    }
+
+    public boolean isGostou() {
+        return gostou;
+    }
+
+    public void setGostou(boolean gostou) {
+        this.gostou = gostou;
     }
 }

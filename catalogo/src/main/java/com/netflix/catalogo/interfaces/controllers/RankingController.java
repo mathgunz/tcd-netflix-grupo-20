@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.Map;
 import java.util.Optional;
 
-@RequestMapping("/rankings")
+@RequestMapping("catalogos")
 @RestController
 public class RankingController {
 
@@ -24,7 +24,7 @@ public class RankingController {
     }
 
 
-    @PostMapping("{id}/votar")
+    @PostMapping("{id}/rankings/votar")
     public ResponseEntity votar(
             @RequestHeader Map<String, String> headers,
             @PathVariable("id") Long id,
@@ -32,14 +32,8 @@ public class RankingController {
 
         String userId = headers.get("userId");
 
-        Optional<Catalogo> catalogoOptional = getCatalogoUseCase.getById(id);
-
-        catalogoOptional.ifPresent(catalogo -> {
-            ranking.setUsuarioId(Long.getLong(userId));
-            ranking.setCatalogo(catalogo);
-
-            getRankingUseCase.votar(ranking);
-        });
+        ranking.setUsuarioId(Long.getLong(userId));
+        getRankingUseCase.votar(ranking);
 
         return ResponseEntity.ok().build();
     }
