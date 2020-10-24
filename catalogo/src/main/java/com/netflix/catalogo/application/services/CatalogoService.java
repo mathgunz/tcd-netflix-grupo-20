@@ -37,6 +37,15 @@ public class CatalogoService implements GetCatalogoUseCase {
         return Optional.of(toDomain(catalogoEntity));
     }
 
+    @Override
+    public void findAllMostRatedByGeneroUseCase() {
+
+        List<CatalogoEntity> catalogs = catalogoRepository.findAll();
+
+//        catalogs.
+
+    }
+
     private Catalogo toDomain(CatalogoEntity catalogoEntity) {
         return Catalogo.newBuilder()
                 .withCapa(catalogoEntity.getCapa())

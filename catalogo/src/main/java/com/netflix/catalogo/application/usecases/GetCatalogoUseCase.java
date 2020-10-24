@@ -11,4 +11,6 @@ public interface GetCatalogoUseCase {
     List<Catalogo> getByGeneroOuPalavraChave(GeneroEnum genero, String nome);
 
     Optional<Catalogo> getById(Long id) throws Exception;
+
+    void findAllMostRatedByGeneroUseCase();
 }
