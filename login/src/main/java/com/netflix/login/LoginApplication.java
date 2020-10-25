@@ -1,4 +1,4 @@
-package com.netflix.suporte.api;
+package com.netflix.login;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
