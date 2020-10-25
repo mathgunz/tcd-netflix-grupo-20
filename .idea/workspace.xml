@@ -23,7 +23,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a745bcbd-5534-4e13-8850-21d7217d7201" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/login/src/main/java/com/netflix/login/configurations/OAuth2Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/src/main/java/com/netflix/login/configurations/WebSecurityConfigurer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/.gradle/6.6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/login/.gradle/6.6.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/.gradle/6.6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/login/.gradle/6.6.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/.gradle/6.6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/login/.gradle/6.6.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/.gradle/6.6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/login/.gradle/6.6.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/.gradle/6.6.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/login/.gradle/6.6.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/.gradle/6.6.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/login/.gradle/6.6.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/login/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/login/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/login/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/login/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/build/resources/main/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/login/build/resources/main/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/login/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/src/main/java/com/netflix/login/LoginApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/login/src/main/java/com/netflix/login/LoginApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/login/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/suporte-api/.gradle/6.6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/suporte-api/.gradle/6.6.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/suporte-api/.gradle/6.6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/suporte-api/.gradle/6.6.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/suporte-api/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/suporte-api/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/suporte-api/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/suporte-api/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/suporte-core/.gradle/6.6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/suporte-core/.gradle/6.6.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/suporte-core/.gradle/6.6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/suporte-core/.gradle/6.6.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/suporte-core/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/suporte-core/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/suporte-core/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/suporte-core/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuario/.gradle/6.6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/usuario/.gradle/6.6.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuario/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/usuario/.gradle/checksums/checksums.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,9 +85,17 @@
         <task path="$PROJECT_DIR$/suporte-core">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/login">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="login" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -82,24 +119,26 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/login/build.gradle" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/login/src/main/java/com/netflix/login/configurations" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.netflix.login.interfaces.controllers" />
       <recent name="com.netflix.suporte.api.configurations" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/login/src/main/java/com/netflix/login/configurations" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CatalogoApplication">
-    <configuration name="CatalogoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.netflix.catalogo.CatalogoApplication" />
-      <module name="catalogo.main" />
+  <component name="RunManager" selected="Application.Oauth2serverApplication">
+    <configuration name="LoginApplication (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.netflix.login.LoginApplication" />
+      <module name="login.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.netflix.catalogo.*" />
+          <option name="PATTERN" value="com.netflix.login.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,9 +146,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SuporteApiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.netflix.suporte.api.SuporteApiApplication" />
-      <module name="suporte-api.main" />
+    <configuration name="LoginApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.netflix.suporte.api.LoginApplication" />
+      <module name="login.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.netflix.suporte.api.*" />
@@ -120,12 +159,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SuporteCoreApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.netflix.suporte.core.SuporteCoreApplication" />
-      <module name="suporte-core.main" />
+    <configuration name="Oauth2serverApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.oauth2server.Oauth2serverApplication" />
+      <module name="oauth2server" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.netflix.suporte.core.*" />
+          <option name="PATTERN" value="com.example.oauth2server.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,10 +185,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="suporte-core [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="login [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/suporte-core" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/login" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" />
         <option name="taskDescriptions">
@@ -157,7 +196,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="build" />
+            <option value="dependencies" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -166,19 +205,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.CatalogoApplication" />
-      <item itemvalue="Application.SuporteApiApplication" />
-      <item itemvalue="Application.SuporteCoreApplication" />
       <item itemvalue="Application.UsuarioApplication" />
-      <item itemvalue="Gradle.suporte-core [build]" />
+      <item itemvalue="Application.LoginApplication" />
+      <item itemvalue="Gradle.login [dependencies]" />
+      <item itemvalue="Application.LoginApplication (1)" />
+      <item itemvalue="Application.Oauth2serverApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Oauth2serverApplication" />
+        <item itemvalue="Application.LoginApplication (1)" />
+        <item itemvalue="Gradle.login [dependencies]" />
+        <item itemvalue="Application.LoginApplication" />
         <item itemvalue="Application.UsuarioApplication" />
-        <item itemvalue="Gradle.suporte-core [build]" />
-        <item itemvalue="Application.SuporteCoreApplication" />
-        <item itemvalue="Application.CatalogoApplication" />
-        <item itemvalue="Application.SuporteApiApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -218,22 +257,22 @@
       <screen x="1360" y="0" width="2560" height="1080" />
     </state>
     <state x="1854" y="309" width="424" height="491" key="FileChooserDialogImpl/1360.0.2560.1080/0.233.1360.768@1360.0.2560.1080" timestamp="1603580269389" />
-    <state width="1377" height="330" key="GridCell.Tab.0.bottom" timestamp="1603594273934">
+    <state width="1377" height="274" key="GridCell.Tab.0.bottom" timestamp="1603599194098">
       <screen x="1360" y="0" width="2560" height="1080" />
     </state>
-    <state width="1377" height="330" key="GridCell.Tab.0.bottom/1360.0.2560.1080/0.233.1360.768@1360.0.2560.1080" timestamp="1603594273934" />
-    <state width="1377" height="330" key="GridCell.Tab.0.center" timestamp="1603594273934">
+    <state width="1377" height="274" key="GridCell.Tab.0.bottom/1360.0.2560.1080/0.233.1360.768@1360.0.2560.1080" timestamp="1603599194098" />
+    <state width="1377" height="274" key="GridCell.Tab.0.center" timestamp="1603599194098">
       <screen x="1360" y="0" width="2560" height="1080" />
     </state>
-    <state width="1377" height="330" key="GridCell.Tab.0.center/1360.0.2560.1080/0.233.1360.768@1360.0.2560.1080" timestamp="1603594273934" />
-    <state width="1377" height="330" key="GridCell.Tab.0.left" timestamp="1603594273934">
+    <state width="1377" height="274" key="GridCell.Tab.0.center/1360.0.2560.1080/0.233.1360.768@1360.0.2560.1080" timestamp="1603599194098" />
+    <state width="1377" height="274" key="GridCell.Tab.0.left" timestamp="1603599194097">
       <screen x="1360" y="0" width="2560" height="1080" />
     </state>
-    <state width="1377" height="330" key="GridCell.Tab.0.left/1360.0.2560.1080/0.233.1360.768@1360.0.2560.1080" timestamp="1603594273934" />
-    <state width="1377" height="330" key="GridCell.Tab.0.right" timestamp="1603594273934">
+    <state width="1377" height="274" key="GridCell.Tab.0.left/1360.0.2560.1080/0.233.1360.768@1360.0.2560.1080" timestamp="1603599194097" />
+    <state width="1377" height="274" key="GridCell.Tab.0.right" timestamp="1603599194098">
       <screen x="1360" y="0" width="2560" height="1080" />
     </state>
-    <state width="1377" height="330" key="GridCell.Tab.0.right/1360.0.2560.1080/0.233.1360.768@1360.0.2560.1080" timestamp="1603594273934" />
+    <state width="1377" height="274" key="GridCell.Tab.0.right/1360.0.2560.1080/0.233.1360.768@1360.0.2560.1080" timestamp="1603599194098" />
     <state width="1377" height="330" key="GridCell.Tab.1.bottom" timestamp="1603594273935">
       <screen x="1360" y="0" width="2560" height="1080" />
     </state>

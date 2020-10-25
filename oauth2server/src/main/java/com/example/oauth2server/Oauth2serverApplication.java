@@ -1,4 +1,4 @@
-package com.netflix.login;
+package com.example.oauth2server;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -8,10 +8,9 @@ import org.springframework.security.oauth2.config.annotation.web.configuration.E
 @SpringBootApplication
 @EnableResourceServer
 @EnableAuthorizationServer
-public class LoginApplication {
+public class Oauth2serverApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(LoginApplication.class, args);
+		SpringApplication.run(Oauth2serverApplication.class, args);
 	}
-
 }
