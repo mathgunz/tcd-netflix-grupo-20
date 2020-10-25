@@ -3,7 +3,7 @@ package com.netflix.usuario.repositories.entities;
 import javax.persistence.*;
 import java.util.Date;
 
-@Entity
+@Entity(name="historico")
 @Table(name="historico", schema = "fiap")
 public class HistoricoEntity {
 

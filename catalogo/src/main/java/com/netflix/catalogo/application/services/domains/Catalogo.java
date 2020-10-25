@@ -17,9 +17,7 @@ public class Catalogo implements Serializable {
     private String elenco;
     private Long classificacaoEtaria;
 
-    public Long getId() {
-        return id;
-    }
+    public Long getId() { return id; }
 
     public String getNome() {
         return nome;
@@ -70,9 +68,7 @@ public class Catalogo implements Serializable {
         classificacaoEtaria = builder.classificacaoEtaria;
     }
 
-    public static Builder newBuilder() {
-        return new Builder();
-    }
+    public static Builder newBuilder() { return new Builder(); }
 
     public static Builder newBuilder(Catalogo copy) {
         Builder builder = new Builder();

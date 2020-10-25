@@ -3,13 +3,13 @@ package com.netflix.usuario.repositories.entities;
 import javax.persistence.*;
 import java.util.Date;
 
-@Entity
+@Entity (name="lista")
 @Table(name="minha_lista", schema = "fiap")
-public class MinhaListaEntity {
+public class ListaUserEntity {
 
     @Id
     @GeneratedValue(strategy= GenerationType.IDENTITY)
-    private Long id;
+    private Long idLista;
 
     @ManyToOne
     @JoinColumn(name="usuario_id", nullable=false)
@@ -20,17 +20,19 @@ public class MinhaListaEntity {
     private CatalogoSumarizadoEntity filme;
 
     @Temporal(TemporalType.TIMESTAMP)
-    private Date criacao;
+    private Date dataEscolha;
 
-    public MinhaListaEntity() {
+    private boolean visualizacaoFutura = true;
+
+    public ListaUserEntity() {
     }
 
-    public Long getId() {
-        return id;
+    public Long getIdLista() {
+        return idLista;
     }
 
-    public void setId(Long id) {
-        this.id = id;
+    public void setIdLista(Long idLista) {
+        this.idLista = idLista;
     }
 
     public UsuarioEntity getUsuarioEntity() {
@@ -49,11 +51,19 @@ public class MinhaListaEntity {
         this.filme = filme;
     }
 
-    public Date getCriacao() {
-        return criacao;
+    public Date getDataEscolha() {
+        return dataEscolha;
     }
 
-    public void setCriacao(Date criacao) {
-        this.criacao = criacao;
+    public void setDataEscolha(Date dataEscolha) {
+        this.dataEscolha = dataEscolha;
+    }
+
+    public boolean getVisualizacaoFutura() {
+        return visualizacaoFutura;
+    }
+
+    public void setVisualizacaoFutura(boolean visualizacaoFutura) {
+        this.visualizacaoFutura = visualizacaoFutura;
     }
 }
