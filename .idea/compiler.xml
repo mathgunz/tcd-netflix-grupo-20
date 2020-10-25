@@ -6,8 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="oauth2server" />
+        <module name="login" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="login.main" target="11" />
+      <module name="login.test" target="11" />
+      <module name="oauth2server" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

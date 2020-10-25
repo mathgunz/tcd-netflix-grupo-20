@@ -1,6 +1,0 @@
-com/netflix/login/configurations/WebSecurityConfigurer.java
- com.netflix.login.configurations.WebSecurityConfigurer
-com/netflix/login/LoginApplication.java
- com.netflix.login.LoginApplication
-com/netflix/login/configurations/OAuth2Config.java
- com.netflix.login.configurations.OAuth2Config

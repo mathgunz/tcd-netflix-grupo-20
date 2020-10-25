@@ -1,0 +1,4 @@
+com/example/oauth2server/Oauth2serverApplication.class
+com/example/oauth2server/controller/Oauth2Controller.class
+com/example/oauth2server/security/OAuth2Config.class
+com/example/oauth2server/security/WebSecurityConfigurer.class

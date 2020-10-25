@@ -23,3 +23,8 @@
 hs_err_pid*
 /catalogo/.idea/
 /catalogo/.gradle/
+/login/.idea/
+/login/target/
+/usuario/.gradle/
+/suporte-core/.gradle/
+/suporte-api/.gradle/
