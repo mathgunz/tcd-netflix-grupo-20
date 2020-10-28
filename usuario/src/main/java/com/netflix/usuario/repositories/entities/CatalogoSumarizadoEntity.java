@@ -2,7 +2,7 @@ package com.netflix.usuario.repositories.entities;
 
 import javax.persistence.*;
 
-@Entity (name="catalogoSumarizado")
+@Entity
 @Table(name="catalogo_sumarizado", schema = "fiap")
 public class CatalogoSumarizadoEntity {
 

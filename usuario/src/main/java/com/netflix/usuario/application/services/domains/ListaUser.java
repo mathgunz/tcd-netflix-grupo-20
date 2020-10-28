@@ -8,19 +8,19 @@ import java.util.Date;
 
 public class ListaUser implements Serializable {
 
-    private Long idLista;
+    private Long id;
     private UsuarioEntity usuarioEntity;
     private CatalogoSumarizadoEntity filme;
     private Date dataEscolha;
     private boolean visualizacaoFutura;
 
 
-    public Long getIdLista() {
-        return idLista;
+    public Long getId() {
+        return id;
     }
 
-    public void setIdLista(Long idLista) {
-        this.idLista = idLista;
+    public void setId(Long id) {
+        this.id = id;
     }
 
     public UsuarioEntity getUsuarioEntity() {

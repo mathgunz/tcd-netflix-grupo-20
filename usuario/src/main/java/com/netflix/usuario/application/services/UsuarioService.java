@@ -25,14 +25,14 @@ public class UsuarioService implements GetUsuarioUseCase {
     }
 
     @Override
-    public List<HistoricoEntity> findAllHistorico() {
-        List<HistoricoEntity> hist=historicoRepository.findAllHistorico();
+    public List<HistoricoEntity> findAll() {
+        List<UsuarioEntity> hist=historicoRepository.findAll();
         return null;
     }
 
     @Override
-    public Optional<Usuario> getByIdUser(Long idUser) throws Exception {
-        Optional<UsuarioEntity> result = usuarioRepository.findById(idUser);
+    public Optional<Usuario> getById(Long id) throws Exception {
+        Optional<UsuarioEntity> result = usuarioRepository.findById(id);
 
         UsuarioEntity usuarioEntity = result.orElseThrow(
                 () -> new Exception("Usuário não existe"));
@@ -53,7 +53,7 @@ public class UsuarioService implements GetUsuarioUseCase {
 
     private Usuario toDomain(UsuarioEntity usuarioEntity){
         return Usuario.newBuilder()
-                .withIdUser(usuarioEntity.getIdUser())
+                .withId(usuarioEntity.getId())
                 .withNome(usuarioEntity.getNome())
                 .withSobrenome(usuarioEntity.getSobrenome())
                 .withEmail(usuarioEntity.getEmail())

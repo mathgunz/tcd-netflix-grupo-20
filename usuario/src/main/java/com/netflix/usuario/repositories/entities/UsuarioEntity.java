@@ -4,13 +4,13 @@ import javax.persistence.*;
 import java.util.Date;
 import java.util.List;
 
-@Entity(name="usuario")
+@Entity
 @Table(name="usuario", schema = "fiap")
 public class UsuarioEntity {
 
     @Id
     @GeneratedValue(strategy= GenerationType.IDENTITY)
-    private Long idUser;
+    private Long id;
     private String nome;
     private String sobrenome;
 
@@ -31,12 +31,12 @@ public class UsuarioEntity {
     public UsuarioEntity() {
     }
 
-    public Long getIdUser() {
-        return idUser;
+    public Long getId() {
+        return id;
     }
 
-    public void setIdUser(Long id) {
-        this.idUser = idUser;
+    public void setId(long id) {
+        this.id = id;
     }
 
     public String getNome() {

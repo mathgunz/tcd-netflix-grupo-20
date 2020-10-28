@@ -11,17 +11,17 @@ import java.util.Date;
 
 public class ListaDTO extends ListaUser implements Serializable {
 
-    private Long idUser;
+    private Long id;
     private CatalogoSumarizadoEntity catalogoId;
     private Boolean visualizacaoFutura;
     private Date dataEscolha;
 
-    public Long getIdUser() {
-        return idUser;
+    public Long getId() {
+        return id;
     }
 
     public void setIdUser(Long idUser) {
-        this.idUser = idUser;
+        this.id = id;
     }
 
     public CatalogoSumarizadoEntity getCatalogoId() {

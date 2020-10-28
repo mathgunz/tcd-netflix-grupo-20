@@ -5,7 +5,7 @@ import java.util.Date;
 
 public class Usuario implements Serializable {
 
-    private Long idUser;
+    private Long id;
     private String nome;
     private String sobrenome;
     private String perfil;
@@ -15,8 +15,8 @@ public class Usuario implements Serializable {
     private String tipoConta;
 
 
-    public Long getIdUser()
-    { return idUser; }
+    public Long getId()
+    { return id; }
 
     public String getNome()
     { return nome; }
@@ -40,7 +40,7 @@ public class Usuario implements Serializable {
     { return tipoConta; }
 
     private Usuario(Builder builder){
-        idUser= builder.idUser;
+        id= builder.id;
         nome= builder.nome;
         sobrenome = builder.sobrenome;
         perfil = builder.perfil;
@@ -56,7 +56,7 @@ public class Usuario implements Serializable {
     }
     public static Builder newBuilder(Usuario copy){
         Builder builder = new Builder();
-        builder.idUser = copy.getIdUser();
+        builder.id = copy.getId();
         builder.nome = copy.getNome();
         builder.sobrenome = copy.getSobrenome();
         builder.perfil=copy.getPerfil();
@@ -68,7 +68,7 @@ public class Usuario implements Serializable {
 
     }
     public static final class Builder {
-        private Long idUser;
+        private Long id;
         private String nome;
         private String sobrenome;
         private String perfil;
@@ -80,8 +80,8 @@ public class Usuario implements Serializable {
         private  Builder(){
 
         }
-            public Builder withIdUser(Long user) {
-                idUser = user;
+            public Builder withId(Long user) {
+                id = user;
                 return this;
             }
 
