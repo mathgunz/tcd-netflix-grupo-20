@@ -2,6 +2,7 @@ package com.netflix.usuario.application.services.domains;
 
 import java.io.Serializable;
 import java.util.Date;
+import java.util.List;
 
 public class Usuario implements Serializable {
 
@@ -31,7 +32,7 @@ public class Usuario implements Serializable {
     { return email; }
 
     public String getPassword()
-    { return email; }
+    { return password; }
 
     public Date getCriacao()
     { return criacao; }

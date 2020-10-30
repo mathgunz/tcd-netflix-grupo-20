@@ -6,14 +6,14 @@ import com.netflix.usuario.repositories.entities.UsuarioEntity;
 import java.io.Serializable;
 import java.util.Date;
 
-public class Historico implements Serializable {
+public class MinhaLista implements Serializable {
 
     private Long id;
     @JsonIgnore
     private UsuarioEntity userId;
     @JsonIgnore
     private CatalagoSumarizado filme;
-    private Date criacao;
+    private Date dataEscolha;
 
     public Long getId() {
         return id;
@@ -39,12 +39,13 @@ public class Historico implements Serializable {
         this.filme = filme;
     }
 
-    public Date getCriacao() {
-        return criacao;
+    public Date getDataEscolha() {
+        return dataEscolha;
     }
 
-    public void setCriacao(Date criacao) {
-        this.criacao = criacao;
+    public void setDataEscolha(Date dataEscolha) {
+        this.dataEscolha = dataEscolha;
     }
+
 
 }

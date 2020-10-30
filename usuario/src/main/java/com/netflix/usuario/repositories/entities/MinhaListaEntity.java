@@ -1,20 +1,31 @@
-package com.netflix.usuario.application.services.domains;
+package com.netflix.usuario.repositories.entities;
 
-import com.netflix.usuario.repositories.entities.CatalogoSumarizadoEntity;
-import com.netflix.usuario.repositories.entities.UsuarioEntity;
+import com.netflix.usuario.application.services.domains.Usuario;
 
-import java.io.Serializable;
+import javax.persistence.*;
 import java.util.Date;
 
-public class ListaUser implements Serializable {
+@Entity
+@Table(name="minha_lista", schema = "fiap")
+public class MinhaListaEntity {
 
+    @Id
+    @GeneratedValue(strategy= GenerationType.IDENTITY)
     private Long id;
+
+    @ManyToOne
+    @JoinColumn(name="usuario_id", nullable=false)
     private UsuarioEntity usuarioEntity;
+
+    @OneToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "catalogo_sumarizado_id", referencedColumnName = "id")
     private CatalogoSumarizadoEntity filme;
+
+    @Temporal(TemporalType.TIMESTAMP)
     private Date dataEscolha;
-    private boolean visualizacaoFutura;
 
-
+    public MinhaListaEntity(){
+    }
     public Long getId() {
         return id;
     }
@@ -47,12 +58,4 @@ public class ListaUser implements Serializable {
         this.dataEscolha = dataEscolha;
     }
 
-    public boolean isVisualizacaoFutura() {
-        return visualizacaoFutura;
-    }
-
-    public void setVisualizacaoFutura(boolean visualizacaoFutura) {
-        this.visualizacaoFutura = visualizacaoFutura;
-    }
 }
-

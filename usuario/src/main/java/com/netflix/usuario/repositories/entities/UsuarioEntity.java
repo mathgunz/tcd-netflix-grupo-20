@@ -19,10 +19,10 @@ public class UsuarioEntity {
     private String email;
     private String password;
     @OneToMany(mappedBy="usuarioEntity", cascade = CascadeType.ALL)
-    private List<ListaUserEntity> minhalista;
+    private List<MinhaListaEntity> minhalistaEntity;
 
     @OneToMany(mappedBy="usuarioEntity", cascade = CascadeType.ALL)
-    private List<HistoricoEntity> historicos;
+    private List<HistoricoEntity> historicoEntity;
 
     private Date criacao;
 
@@ -35,7 +35,7 @@ public class UsuarioEntity {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
@@ -70,7 +70,6 @@ public class UsuarioEntity {
     public void setEmail(String email) {
         this.email = email;
     }
-
     public String getPassword() {
         return password;
     }
@@ -79,20 +78,21 @@ public class UsuarioEntity {
         this.password = password;
     }
 
-    public List<ListaUserEntity> getMinhalista() {
-        return minhalista;
+
+    public List<MinhaListaEntity> getMinhalistaEntity() {
+        return minhalistaEntity;
     }
 
-    public void setMinhalista(List<ListaUserEntity> minhalista) {
-        this.minhalista = minhalista;
+    public void setMinhalistaEntity(List<MinhaListaEntity> minhalistaEntity) {
+        this.minhalistaEntity = minhalistaEntity;
     }
 
-    public List<HistoricoEntity> getHistoricos() {
-        return historicos;
+    public List<HistoricoEntity> getHistoricoEntity() {
+        return historicoEntity;
     }
 
-    public void setHistoricos(List<HistoricoEntity> historicos) {
-        this.historicos = historicos;
+    public void setHistoricoEntity(List<HistoricoEntity> historicoEntity) {
+        this.historicoEntity = historicoEntity;
     }
 
     public Date getCriacao() {
@@ -106,7 +106,6 @@ public class UsuarioEntity {
     public String getTipoConta() {
         return tipoConta;
     }
-
     public void setTipoConta(String tipoConta) {
         this.tipoConta = tipoConta;
     }

@@ -1,34 +1,26 @@
 package com.netflix.usuario.application.services;
 
-import com.netflix.usuario.application.services.domains.ListaUser;
+import com.netflix.usuario.application.services.domains.MinhaLista;
 import com.netflix.usuario.application.services.domains.Usuario;
+import com.netflix.usuario.application.usecase.GetMinhaListaCase;
 import com.netflix.usuario.application.usecase.GetUsuarioUseCase;
 
 import com.netflix.usuario.repositories.entities.*;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.List;
 import java.util.Optional;
 
 @Service
 public class UsuarioService implements GetUsuarioUseCase {
 
+    @Autowired
     private final UsuarioRepository usuarioRepository;
-    private final HistoricoRepository historicoRepository;
-    private final ListaUserRepository listaUserRepository;
 
-
-    public UsuarioService(UsuarioRepository usuarioRepository, HistoricoRepository historicoRepository, ListaUserRepository listaUserRepository){
+    public UsuarioService(UsuarioRepository usuarioRepository){
         this.usuarioRepository=usuarioRepository;
-        this.historicoRepository = historicoRepository;
-        this.listaUserRepository = listaUserRepository;
     }
 
-    @Override
-    public List<HistoricoEntity> findAll() {
-        List<UsuarioEntity> hist=historicoRepository.findAll();
-        return null;
-    }
 
     @Override
     public Optional<Usuario> getById(Long id) throws Exception {
@@ -37,20 +29,13 @@ public class UsuarioService implements GetUsuarioUseCase {
         UsuarioEntity usuarioEntity = result.orElseThrow(
                 () -> new Exception("Usuário não existe"));
         return Optional.of(toDomain(usuarioEntity));
-
     }
-
+    /*
     @Override
-    public void assistirFuturamente(ListaUser listaUser) {
-        ListaUserEntity listaUserEntity = new ListaUserEntity();
-        listaUserEntity.setUsuarioEntity(listaUser.getUsuarioEntity());
-        listaUserEntity.setFilme(listaUser.getFilme());
-        listaUserEntity.setVisualizacaoFutura(listaUser.isVisualizacaoFutura());
-        listaUser.setDataEscolha(listaUserEntity.getDataEscolha());
-        listaUserRepository.save(listaUserEntity);
-    }
-
-
+    public void minhaLista (MinhaLista minhaLista){
+        MinhaListaEntity listaEntity= new MinhaListaEntity();
+        minhaListaRepository.save(listaEntity)
+    }*/
     private Usuario toDomain(UsuarioEntity usuarioEntity){
         return Usuario.newBuilder()
                 .withId(usuarioEntity.getId())
@@ -61,8 +46,5 @@ public class UsuarioService implements GetUsuarioUseCase {
                 .withCriacao(usuarioEntity.getCriacao())
                 .withTipoConta(usuarioEntity.getTipoConta())
                 .build();
-
     }
-
-
 }
