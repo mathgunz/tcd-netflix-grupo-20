@@ -14,7 +14,8 @@ spring:
       INDENT_OUTPUT: true
   jpa:
     database: POSTGRESQL
-    hibernate: ddl-auto=update
+    hibernate:
+      ddl-auto: create-drop
   database:
     driverClassName: org.postgresql.Driver
   datasource:

@@ -29,3 +29,6 @@ hs_err_pid*
 /suporte-core/.gradle/
 /suporte-api/.gradle/
 /login/.gradle/
+/catalogo/.gradle/
+/catalogo/build/
+/suporte-api/.gradle/

@@ -1,3 +1,5 @@
+com/netflix/catalogo/configurations/ResourceServerConfiguration.java
+ com.netflix.catalogo.configurations.ResourceServerConfiguration
 com/netflix/catalogo/application/services/domains/Catalogo.java
  com.netflix.catalogo.application.services.domains.Catalogo
  com.netflix.catalogo.application.services.domains.Catalogo$Builder
@@ -13,6 +15,9 @@ com/netflix/catalogo/repositories/entities/enums/GeneroEnum.java
  com.netflix.catalogo.repositories.entities.enums.GeneroEnum$6
  com.netflix.catalogo.repositories.entities.enums.GeneroEnum$7
  com.netflix.catalogo.repositories.entities.enums.GeneroEnum$8
+com/netflix/catalogo/configurations/SecurityProperties.java
+ com.netflix.catalogo.configurations.SecurityProperties
+ com.netflix.catalogo.configurations.SecurityProperties$JwtProperties
 com/netflix/catalogo/repositories/RankingRepository.java
  com.netflix.catalogo.repositories.RankingRepository
 com/netflix/catalogo/interfaces/controllers/RankingController.java
@@ -36,6 +41,8 @@ com/netflix/catalogo/application/usecases/GetCatalogoUseCase.java
  com.netflix.catalogo.application.usecases.GetCatalogoUseCase
 com/netflix/catalogo/interfaces/controllers/dtos/GeneroDTO.java
  com.netflix.catalogo.interfaces.controllers.dtos.GeneroDTO
+com/netflix/catalogo/configurations/WebSecurityConfiguration.java
+ com.netflix.catalogo.configurations.WebSecurityConfiguration
 com/netflix/catalogo/interfaces/controllers/dtos/CategoriaRatedDTO.java
  com.netflix.catalogo.interfaces.controllers.dtos.CategoriaRatedDTO
 com/netflix/catalogo/interfaces/controllers/CatalogoController.java
