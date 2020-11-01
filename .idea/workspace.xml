@@ -20,36 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="726ea792-7252-4a85-af6b-92823cc53d93" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/usuario/src/main/java/com/netflix/usuario/application/services/UsuarioService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuario/src/main/java/com/netflix/usuario/application/services/domains/CatalogoSumarizado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuario/src/main/java/com/netflix/usuario/application/services/domains/Historico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuario/src/main/java/com/netflix/usuario/application/services/domains/MinhaLista.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuario/src/main/java/com/netflix/usuario/application/services/domains/Usuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuario/src/main/java/com/netflix/usuario/application/usecase/GetUsuarioUseCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuario/src/main/java/com/netflix/usuario/repositories/entities/CatalogoSumarizadoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuario/src/main/java/com/netflix/usuario/repositories/entities/HistoricoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuario/src/main/java/com/netflix/usuario/repositories/entities/MinhaListaRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuario/src/main/java/com/netflix/usuario/repositories/entities/UsuarioRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/suporte-api/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/suporte-api/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/suporte-api/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/suporte-api/.gradle/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/suporte-api/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/suporte-api/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuario/.gradle/6.6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/usuario/.gradle/6.6.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuario/.gradle/6.6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/usuario/.gradle/6.6.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuario/.gradle/6.6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/usuario/.gradle/6.6.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuario/.gradle/6.6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/usuario/.gradle/6.6.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuario/.gradle/6.6.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/usuario/.gradle/6.6.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuario/.gradle/6.6.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/usuario/.gradle/6.6.1/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuario/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/usuario/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuario/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/usuario/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuario/build/resources/main/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/usuario/build/resources/main/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuario/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/usuario/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuario/src/main/java/com/netflix/usuario/interfaces/controllers/UsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/usuario/src/main/java/com/netflix/usuario/interfaces/controllers/UsuarioController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuario/src/main/java/com/netflix/usuario/repositories/entities/HistoricoEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/usuario/src/main/java/com/netflix/usuario/repositories/entities/HistoricoEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuario/src/main/java/com/netflix/usuario/repositories/entities/MinhaListaEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/usuario/src/main/java/com/netflix/usuario/repositories/entities/MinhaListaEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuario/src/main/java/com/netflix/usuario/repositories/entities/UsuarioEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/usuario/src/main/java/com/netflix/usuario/repositories/entities/UsuarioEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuario/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/usuario/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
