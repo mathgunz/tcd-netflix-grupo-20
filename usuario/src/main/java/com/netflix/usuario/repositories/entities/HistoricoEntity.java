@@ -1,5 +1,9 @@
 package com.netflix.usuario.repositories.entities;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+import com.netflix.usuario.application.services.domains.CatalogoSumarizado;
+import com.netflix.usuario.application.services.domains.Usuario;
+
 import javax.persistence.*;
 import java.util.Date;
 
@@ -21,6 +25,17 @@ public class HistoricoEntity {
 
     @Temporal(TemporalType.TIMESTAMP)
     private Date criacao;
+
+    public HistoricoEntity(){
+
+    }
+    public HistoricoEntity(UsuarioEntity usuarioEntity, Long usuarioId,
+                           CatalogoSumarizadoEntity catalogoSumarizadoEntity, Long filme,
+                           Date criacao){
+        this.usuarioEntity=usuarioEntity;
+        this.filme=catalogoSumarizadoEntity;
+        this.criacao=criacao;
+    }
 
     public Long getId() {
         return id;
@@ -50,6 +65,7 @@ public class HistoricoEntity {
         return criacao;
     }
 
+    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd")
     public void setCriacao(Date criacao) {
         this.criacao = criacao;
     }

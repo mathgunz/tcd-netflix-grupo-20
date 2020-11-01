@@ -1,28 +1,40 @@
 package com.netflix.usuario.repositories.entities;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+
 import javax.persistence.*;
 import java.util.Date;
+
 
 @Entity
 @Table(name="minha_lista", schema = "fiap")
 public class MinhaListaEntity {
 
     @Id
-    @GeneratedValue(strategy= GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     @ManyToOne
-    @JoinColumn(name="usuario_id", nullable=false)
+    @JoinColumn(name = "usuario_id", nullable = false)
     private UsuarioEntity usuarioEntity;
 
     @OneToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "catalogo_sumarizado_id", referencedColumnName = "id")
     private CatalogoSumarizadoEntity filme;
 
-    @Temporal(TemporalType.TIMESTAMP)
-    private Date criacao;
+    @Temporal(TemporalType.DATE)
+    private Date dataEscolha;
 
-    public MinhaListaEntity() {
+    public MinhaListaEntity(){
+
+    }
+
+    public MinhaListaEntity(UsuarioEntity usuarioEntity, Long usuarioId,
+                            CatalogoSumarizadoEntity catalogoSumarizadoEntity,
+                            Long filme, Date dataEscolha) {
+        this.usuarioEntity=usuarioEntity;
+        this.filme=catalogoSumarizadoEntity;
+        this.dataEscolha=dataEscolha;
     }
 
     public Long getId() {
@@ -49,11 +61,12 @@ public class MinhaListaEntity {
         this.filme = filme;
     }
 
-    public Date getCriacao() {
-        return criacao;
+    public Date getDataEscolha() {
+        return dataEscolha;
     }
 
-    public void setCriacao(Date criacao) {
-        this.criacao = criacao;
+    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd")
+    public void setDataEscolha(Date dataEscolha) {
+        this.dataEscolha = dataEscolha;
     }
 }
