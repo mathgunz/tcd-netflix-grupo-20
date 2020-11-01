@@ -1,5 +1,7 @@
 package com.netflix.usuario.repositories.entities;
 
+import com.netflix.usuario.application.services.domains.Usuario;
+
 import javax.persistence.*;
 import java.util.Date;
 
@@ -21,6 +23,14 @@ public class HistoricoEntity {
 
     @Temporal(TemporalType.TIMESTAMP)
     private Date criacao;
+
+    public HistoricoEntity(){
+
+    }
+    public HistoricoEntity(UsuarioEntity usuarioEntity, CatalogoSumarizadoEntity filme){
+        this.usuarioEntity=usuarioEntity;
+        this.filme=filme;
+    }
 
     public Long getId() {
         return id;

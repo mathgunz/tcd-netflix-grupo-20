@@ -1,6 +1,8 @@
 package com.netflix.usuario.repositories.entities;
 
-import com.netflix.usuario.application.services.domains.Usuario;
+import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.databind.annotation.JsonSerialize;
+import com.fasterxml.jackson.databind.ser.std.DateSerializer;
 
 import javax.persistence.*;
 import java.util.Date;
@@ -22,10 +24,20 @@ public class MinhaListaEntity {
     private CatalogoSumarizadoEntity filme;
 
     @Temporal(TemporalType.TIMESTAMP)
+    @JsonSerialize(using = DateSerializer.class)
     private Date dataEscolha;
 
     public MinhaListaEntity(){
     }
+
+    public MinhaListaEntity(Long id, UsuarioEntity usuarioEntity, CatalogoSumarizadoEntity filme,
+                            Date dataEscolha){
+        this.id=id;
+        this.usuarioEntity=usuarioEntity;
+        this.filme=filme;
+        this.dataEscolha=dataEscolha;
+    }
+
     public Long getId() {
         return id;
     }
@@ -50,6 +62,7 @@ public class MinhaListaEntity {
         this.filme = filme;
     }
 
+    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd")
     public Date getDataEscolha() {
         return dataEscolha;
     }
@@ -57,5 +70,6 @@ public class MinhaListaEntity {
     public void setDataEscolha(Date dataEscolha) {
         this.dataEscolha = dataEscolha;
     }
+
 
 }

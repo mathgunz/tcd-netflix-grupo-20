@@ -1,7 +1,6 @@
 package com.netflix.usuario.application.services.domains;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.netflix.usuario.repositories.entities.UsuarioEntity;
 
 import java.io.Serializable;
 import java.util.Date;
@@ -9,9 +8,7 @@ import java.util.Date;
 public class Historico implements Serializable {
 
     private Long id;
-    @JsonIgnore
-    private UsuarioEntity userId;
-    @JsonIgnore
+    private Usuario usuarioEntity;
     private CatalagoSumarizado filme;
     private Date criacao;
 
@@ -23,12 +20,12 @@ public class Historico implements Serializable {
         this.id = id;
     }
 
-    public UsuarioEntity getUserId() {
-        return userId;
+    public Usuario getUsuarioEntity() {
+        return usuarioEntity;
     }
 
-    public void setUserId(UsuarioEntity userId) {
-        this.userId = userId;
+    public void setUsuarioEntity(Usuario usuarioEntity) {
+        this.usuarioEntity = usuarioEntity;
     }
 
     public CatalagoSumarizado getFilme() {

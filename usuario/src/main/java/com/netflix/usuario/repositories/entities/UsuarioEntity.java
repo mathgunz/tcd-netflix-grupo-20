@@ -18,6 +18,7 @@ public class UsuarioEntity {
     private Date dataNascimento;
     private String email;
     private String password;
+
     @OneToMany(mappedBy="usuarioEntity", cascade = CascadeType.ALL)
     private List<MinhaListaEntity> minhalistaEntity;
 
@@ -25,7 +26,6 @@ public class UsuarioEntity {
     private List<HistoricoEntity> historicoEntity;
 
     private Date criacao;
-
     private String tipoConta;
 
     public UsuarioEntity() {
@@ -70,6 +70,7 @@ public class UsuarioEntity {
     public void setEmail(String email) {
         this.email = email;
     }
+
     public String getPassword() {
         return password;
     }
@@ -94,7 +95,6 @@ public class UsuarioEntity {
     public void setHistoricoEntity(List<HistoricoEntity> historicoEntity) {
         this.historicoEntity = historicoEntity;
     }
-
     public Date getCriacao() {
         return criacao;
     }
@@ -106,9 +106,12 @@ public class UsuarioEntity {
     public String getTipoConta() {
         return tipoConta;
     }
+
     public void setTipoConta(String tipoConta) {
         this.tipoConta = tipoConta;
     }
+
+
 }
 
 

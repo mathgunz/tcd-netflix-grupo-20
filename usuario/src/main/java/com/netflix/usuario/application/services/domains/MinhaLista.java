@@ -9,9 +9,7 @@ import java.util.Date;
 public class MinhaLista implements Serializable {
 
     private Long id;
-    @JsonIgnore
-    private UsuarioEntity userId;
-    @JsonIgnore
+    private Usuario usuarioEntity;
     private CatalagoSumarizado filme;
     private Date dataEscolha;
 
@@ -23,12 +21,12 @@ public class MinhaLista implements Serializable {
         this.id = id;
     }
 
-    public UsuarioEntity getUserId() {
-        return userId;
+    public Usuario getUsuarioEntity() {
+        return usuarioEntity;
     }
 
-    public void setUserId(UsuarioEntity userId) {
-        this.userId = userId;
+    public void setUsuarioEntity(Usuario usuarioEntity) {
+        this.usuarioEntity = usuarioEntity;
     }
 
     public CatalagoSumarizado getFilme() {
