@@ -2,8 +2,6 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
-      <module name="login.main" target="11" />
-      <module name="login.test" target="11" />
       <module name="oauth2server" target="1.8" />
     </bytecodeTargetLevel>
   </component>
