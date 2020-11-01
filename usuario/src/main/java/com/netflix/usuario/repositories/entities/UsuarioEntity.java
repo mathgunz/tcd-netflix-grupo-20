@@ -17,14 +17,16 @@ public class UsuarioEntity {
     @Temporal(TemporalType.DATE)
     private Date dataNascimento;
     private String email;
+    private String password;
 
     @OneToMany(mappedBy="usuarioEntity", cascade = CascadeType.ALL)
-    private List<MinhaListaEntity> minhalista;
+    private List<MinhaListaEntity> minhalistaEntity;
 
     @OneToMany(mappedBy="usuarioEntity", cascade = CascadeType.ALL)
-    private List<HistoricoEntity> historicos;
+    private List<HistoricoEntity> historicoEntity;
 
     private Date criacao;
+    private String tipoConta;
 
     public UsuarioEntity() {
     }
@@ -69,22 +71,30 @@ public class UsuarioEntity {
         this.email = email;
     }
 
-    public List<MinhaListaEntity> getMinhalista() {
-        return minhalista;
+    public String getPassword() {
+        return password;
     }
 
-    public void setMinhalista(List<MinhaListaEntity> minhalista) {
-        this.minhalista = minhalista;
+    public void setPassword(String password) {
+        this.password = password;
     }
 
-    public List<HistoricoEntity> getHistoricos() {
-        return historicos;
+
+    public List<MinhaListaEntity> getMinhalistaEntity() {
+        return minhalistaEntity;
     }
 
-    public void setHistoricos(List<HistoricoEntity> historicos) {
-        this.historicos = historicos;
+    public void setMinhalistaEntity(List<MinhaListaEntity> minhalistaEntity) {
+        this.minhalistaEntity = minhalistaEntity;
     }
 
+    public List<HistoricoEntity> getHistoricoEntity() {
+        return historicoEntity;
+    }
+
+    public void setHistoricoEntity(List<HistoricoEntity> historicoEntity) {
+        this.historicoEntity = historicoEntity;
+    }
     public Date getCriacao() {
         return criacao;
     }
@@ -92,7 +102,15 @@ public class UsuarioEntity {
     public void setCriacao(Date criacao) {
         this.criacao = criacao;
     }
+
+    public String getTipoConta() {
+        return tipoConta;
+    }
+
+    public void setTipoConta(String tipoConta) {
+        this.tipoConta = tipoConta;
+    }
+
+
 }
-
-
 
