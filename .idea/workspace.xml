@@ -23,42 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a745bcbd-5534-4e13-8850-21d7217d7201" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_11_2020_19_41_[Default_Changelist]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_11_2020_19_41__Default_Changelist_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalogo/src/main/java/com/netflix/catalogo/configurations/ResourceServerConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalogo/src/main/java/com/netflix/catalogo/configurations/SecurityProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalogo/src/main/java/com/netflix/catalogo/configurations/WebSecurityConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalogo/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalogo/src/main/resources/public.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogo/.gradle/6.6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/catalogo/.gradle/6.6.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogo/.gradle/6.6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/catalogo/.gradle/6.6.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogo/.gradle/6.6.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/catalogo/.gradle/6.6.1/fileContent/fileContent.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogo/.gradle/6.6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/catalogo/.gradle/6.6.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogo/.gradle/6.6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/catalogo/.gradle/6.6.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogo/.gradle/6.6.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/catalogo/.gradle/6.6.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogo/.gradle/6.6.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/catalogo/.gradle/6.6.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogo/.gradle/6.6.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/catalogo/.gradle/6.6.1/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogo/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/catalogo/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogo/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/catalogo/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogo/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/catalogo/.gradle/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogo/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/catalogo/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogo/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/catalogo/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogo/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/catalogo/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/.gradle/6.6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/login/.gradle/6.6.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/.gradle/6.6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/login/.gradle/6.6.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/.gradle/6.6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/login/.gradle/6.6.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/.gradle/6.6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/login/.gradle/6.6.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/login/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/build/resources/main/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/login/build/resources/main/data.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/build/resources/main/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/login/build/resources/main/schema.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/login/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/suporte-api/.gradle/6.6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/suporte-api/.gradle/6.6.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/suporte-api/.gradle/6.6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/suporte-api/.gradle/6.6.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/suporte-api/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/suporte-api/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/suporte-api/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalogo/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuario/src/main/resources/application.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +91,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/catalogo/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/usuario/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -137,14 +103,14 @@
       <recent name="com.netflix.suporte.api.configurations" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/usuario/src/main/resources" />
       <recent name="$PROJECT_DIR$/catalogo/src/main/resources" />
       <recent name="$PROJECT_DIR$/catalogo/src/main/java/com/netflix/catalogo/configurations" />
       <recent name="$PROJECT_DIR$/login/src/main/java/com/netflix/login/events" />
       <recent name="$PROJECT_DIR$/catalogo/src/main/java/com/netflix/catalogo/repositories" />
-      <recent name="$PROJECT_DIR$/login/src/main/java/com/netflix/login/config" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LoginApplication">
+  <component name="RunManager" selected="Application.UsuarioApplication">
     <configuration name="CatalogoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.netflix.catalogo.CatalogoApplication" />
       <module name="catalogo.main" />
@@ -199,19 +165,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Oauth2serverApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.oauth2server.Oauth2serverApplication" />
-      <module name="oauth2server" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.oauth2server.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SuporteApiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="14" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -220,6 +173,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.netflix.suporte.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UsuarioApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.netflix.usuario.UsuarioApplication" />
+      <module name="usuario.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.netflix.usuario.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -248,18 +214,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.LoginApplication" />
-      <item itemvalue="Application.Oauth2serverApplication" />
       <item itemvalue="Application.SuporteApiApplication" />
       <item itemvalue="Application.CatalogoApplication" />
       <item itemvalue="Gradle.login [build]" />
+      <item itemvalue="Application.UsuarioApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UsuarioApplication" />
         <item itemvalue="Gradle.login [build]" />
         <item itemvalue="Application.CatalogoApplication" />
         <item itemvalue="Application.SuporteApiApplication" />
         <item itemvalue="Application.LoginApplication" />
-        <item itemvalue="Application.Oauth2serverApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -315,22 +281,22 @@
       <screen x="1360" y="0" width="2560" height="1080" />
     </state>
     <state x="1854" y="309" width="653" height="491" key="FileChooserDialogImpl/1360.0.2560.1080/0.233.1360.768@1360.0.2560.1080" timestamp="1604264953142" />
-    <state width="2316" height="272" key="GridCell.Tab.0.bottom" timestamp="1604271444744">
+    <state width="2316" height="272" key="GridCell.Tab.0.bottom" timestamp="1604271653789">
       <screen x="1360" y="0" width="2560" height="1080" />
     </state>
-    <state width="2316" height="272" key="GridCell.Tab.0.bottom/1360.0.2560.1080/0.233.1360.768@1360.0.2560.1080" timestamp="1604271444744" />
-    <state width="2316" height="272" key="GridCell.Tab.0.center" timestamp="1604271444743">
+    <state width="2316" height="272" key="GridCell.Tab.0.bottom/1360.0.2560.1080/0.233.1360.768@1360.0.2560.1080" timestamp="1604271653789" />
+    <state width="2316" height="272" key="GridCell.Tab.0.center" timestamp="1604271653789">
       <screen x="1360" y="0" width="2560" height="1080" />
     </state>
-    <state width="2316" height="272" key="GridCell.Tab.0.center/1360.0.2560.1080/0.233.1360.768@1360.0.2560.1080" timestamp="1604271444743" />
-    <state width="2316" height="272" key="GridCell.Tab.0.left" timestamp="1604271444743">
+    <state width="2316" height="272" key="GridCell.Tab.0.center/1360.0.2560.1080/0.233.1360.768@1360.0.2560.1080" timestamp="1604271653789" />
+    <state width="2316" height="272" key="GridCell.Tab.0.left" timestamp="1604271653789">
       <screen x="1360" y="0" width="2560" height="1080" />
     </state>
-    <state width="2316" height="272" key="GridCell.Tab.0.left/1360.0.2560.1080/0.233.1360.768@1360.0.2560.1080" timestamp="1604271444743" />
-    <state width="2316" height="272" key="GridCell.Tab.0.right" timestamp="1604271444743">
+    <state width="2316" height="272" key="GridCell.Tab.0.left/1360.0.2560.1080/0.233.1360.768@1360.0.2560.1080" timestamp="1604271653789" />
+    <state width="2316" height="272" key="GridCell.Tab.0.right" timestamp="1604271653789">
       <screen x="1360" y="0" width="2560" height="1080" />
     </state>
-    <state width="2316" height="272" key="GridCell.Tab.0.right/1360.0.2560.1080/0.233.1360.768@1360.0.2560.1080" timestamp="1604271444743" />
+    <state width="2316" height="272" key="GridCell.Tab.0.right/1360.0.2560.1080/0.233.1360.768@1360.0.2560.1080" timestamp="1604271653789" />
     <state width="2316" height="330" key="GridCell.Tab.1.bottom" timestamp="1604270921045">
       <screen x="1360" y="0" width="2560" height="1080" />
     </state>
