@@ -12,13 +12,13 @@ spring:
   jackson:
     serialization:
       INDENT_OUTPUT: true
-#  jpa:
-#    database: POSTGRESQL
-#    hibernate: ddl-auto=create-drop
-#  database:
-#    driverClassName: org.postgresql.Driver
-#  datasource:
-#    platform: postgres
-#    url: jdbc:postgresql://localhost:5432/postgres
-#    username: postgres
-#    password: 1234
+  jpa:
+    database: POSTGRESQL
+    hibernate: ddl-auto=update
+  database:
+    driverClassName: org.postgresql.Driver
+  datasource:
+    platform: postgres
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: 1234
