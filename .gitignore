@@ -32,3 +32,4 @@ hs_err_pid*
 /catalogo/.gradle/
 /catalogo/build/
 /suporte-api/.gradle/
+/usuario/.gradle/
