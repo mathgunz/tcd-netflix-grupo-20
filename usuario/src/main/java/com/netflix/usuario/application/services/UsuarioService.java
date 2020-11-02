@@ -4,6 +4,7 @@ import com.netflix.usuario.application.services.domains.MinhaLista;
 import com.netflix.usuario.application.services.domains.Usuario;
 import com.netflix.usuario.application.usecase.GetUsuarioUseCase;
 import com.netflix.usuario.repositories.CatalogoSumarizadoRepository;
+import com.netflix.usuario.repositories.HistoricoRepository;
 import com.netflix.usuario.repositories.MinhaListaRepository;
 import com.netflix.usuario.repositories.UsuarioRepository;
 import com.netflix.usuario.repositories.entities.*;
@@ -41,16 +42,17 @@ public class UsuarioService implements GetUsuarioUseCase {
 
     //Salvar um filme ou série para ser visto no futuro;
     @Override
-    public void salvar(MinhaLista minhaLista) {
-        Optional<UsuarioEntity> optional = usuarioRepository.findById(minhaLista.getUsuarioId());
+    public void salvar(String userName, MinhaLista minhaLista) {
+
+        Optional<UsuarioEntity> optional = usuarioRepository.findByEmail(userName);
         UsuarioEntity usuarioEntity = optional.orElseThrow(() -> new RuntimeException("Usuario não existe."));
 
-        Optional<CatalogoSumarizadoEntity> optionalFilme = catalogoSumarizadoRepository.findById(minhaLista.getFilme());
-        CatalogoSumarizadoEntity catalogoSumarizadoEntity =optionalFilme.orElseThrow(() ->
-                                                            new RuntimeException("catalogo nao existe"));
+        CatalogoSumarizadoEntity catalogoSumarizadoEntity = new CatalogoSumarizadoEntity();
+        catalogoSumarizadoEntity.setCatalogoId(minhaLista.getFilme());
+        catalogoSumarizadoEntity.setImagemCapa(minhaLista.getImagemCapaFilme());
+        catalogoSumarizadoEntity.setNome(minhaLista.getNomeFilme());
 
-        MinhaListaEntity minhaListaEntity = new MinhaListaEntity(usuarioEntity, minhaLista.getUsuarioId(),
-                catalogoSumarizadoEntity, minhaLista.getFilme(), minhaLista.getDataEscolha());
+        MinhaListaEntity minhaListaEntity = new MinhaListaEntity(usuarioEntity, catalogoSumarizadoEntity, minhaLista.getDataEscolha());
         minhaListaRepository.save(minhaListaEntity);
     }
 

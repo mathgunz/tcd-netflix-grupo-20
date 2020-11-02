@@ -24,6 +24,11 @@
   <component name="ChangeListManager">
     <list default="true" id="a745bcbd-5534-4e13-8850-21d7217d7201" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/.gradle/6.6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/login/.gradle/6.6.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/.gradle/6.6.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/login/.gradle/6.6.1/fileContent/fileContent.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/.gradle/6.6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/login/.gradle/6.6.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/login/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/login/.gradle/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/usuario/.gradle/6.6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/usuario/.gradle/6.6.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/usuario/.gradle/6.6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/usuario/.gradle/6.6.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/usuario/.gradle/6.6.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/usuario/.gradle/6.6.1/fileContent/fileContent.lock" afterDir="false" />
@@ -34,16 +39,13 @@
       <change beforePath="$PROJECT_DIR$/usuario/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/usuario/.gradle/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/usuario/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/usuario/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/usuario/src/main/java/com/netflix/usuario/application/services/UsuarioService.java" beforeDir="false" afterPath="$PROJECT_DIR$/usuario/src/main/java/com/netflix/usuario/application/services/UsuarioService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuario/src/main/java/com/netflix/usuario/application/services/domains/MinhaLista.java" beforeDir="false" afterPath="$PROJECT_DIR$/usuario/src/main/java/com/netflix/usuario/application/services/domains/MinhaLista.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/usuario/src/main/java/com/netflix/usuario/application/usecase/GetUsuarioUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/usuario/src/main/java/com/netflix/usuario/application/usecase/GetUsuarioUseCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuario/src/main/java/com/netflix/usuario/interfaces/controllers/HistoricoDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/usuario/src/main/java/com/netflix/usuario/interfaces/controllers/HistoricoDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/usuario/src/main/java/com/netflix/usuario/interfaces/controllers/UsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/usuario/src/main/java/com/netflix/usuario/interfaces/controllers/UsuarioController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuario/src/main/java/com/netflix/usuario/repositories/entities/CatalogoSumarizadoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/usuario/src/main/java/com/netflix/usuario/repositories/CatalogoSumarizadoRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuario/src/main/java/com/netflix/usuario/repositories/entities/HistoricoEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/usuario/src/main/java/com/netflix/usuario/repositories/entities/HistoricoEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuario/src/main/java/com/netflix/usuario/repositories/entities/HistoricoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/usuario/src/main/java/com/netflix/usuario/repositories/entities/HistoricoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuario/src/main/java/com/netflix/usuario/repositories/UsuarioRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/usuario/src/main/java/com/netflix/usuario/repositories/UsuarioRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuario/src/main/java/com/netflix/usuario/repositories/entities/CatalogoSumarizadoEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/usuario/src/main/java/com/netflix/usuario/repositories/entities/CatalogoSumarizadoEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuario/src/main/java/com/netflix/usuario/repositories/entities/HistoricoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/usuario/src/main/java/com/netflix/usuario/repositories/HistoricoRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/usuario/src/main/java/com/netflix/usuario/repositories/entities/MinhaListaEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/usuario/src/main/java/com/netflix/usuario/repositories/entities/MinhaListaEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuario/src/main/java/com/netflix/usuario/repositories/entities/MinhaListaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/usuario/src/main/java/com/netflix/usuario/repositories/MinhaListaRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuario/src/main/java/com/netflix/usuario/repositories/entities/UsuarioEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/usuario/src/main/java/com/netflix/usuario/repositories/entities/UsuarioEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuario/src/main/java/com/netflix/usuario/repositories/entities/UsuarioRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/usuario/src/main/java/com/netflix/usuario/repositories/UsuarioRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -288,10 +290,10 @@
       <screen x="1360" y="0" width="2560" height="1080" />
     </state>
     <state x="1720" y="353" width="622" height="403" key="#com.intellij.fileTypes.FileTypeChooser/1360.0.2560.1080/0.233.1360.768@1360.0.2560.1080" timestamp="1604273571897" />
-    <state x="1879" y="270" width="374" height="569" key="#com.intellij.ide.util.MemberChooser" timestamp="1604275068265">
+    <state x="1879" y="270" width="374" height="569" key="#com.intellij.ide.util.MemberChooser" timestamp="1604279038441">
       <screen x="1360" y="0" width="2560" height="1080" />
     </state>
-    <state x="1879" y="270" width="374" height="569" key="#com.intellij.ide.util.MemberChooser/1360.0.2560.1080/0.233.1360.768@1360.0.2560.1080" timestamp="1604275068265" />
+    <state x="1879" y="270" width="374" height="569" key="#com.intellij.ide.util.MemberChooser/1360.0.2560.1080/0.233.1360.768@1360.0.2560.1080" timestamp="1604279038441" />
     <state x="1798" y="403" width="723" height="279" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1604277397905">
       <screen x="1360" y="0" width="2560" height="1080" />
     </state>
@@ -308,38 +310,38 @@
       <screen x="1360" y="0" width="2560" height="1080" />
     </state>
     <state x="1854" y="309" width="653" height="491" key="FileChooserDialogImpl/1360.0.2560.1080/0.233.1360.768@1360.0.2560.1080" timestamp="1604264953142" />
-    <state width="1382" height="316" key="GridCell.Tab.0.bottom" timestamp="1604277685176">
+    <state width="1382" height="316" key="GridCell.Tab.0.bottom" timestamp="1604279628392">
       <screen x="1360" y="0" width="2560" height="1080" />
     </state>
-    <state width="1382" height="316" key="GridCell.Tab.0.bottom/1360.0.2560.1080/0.233.1360.768@1360.0.2560.1080" timestamp="1604277685176" />
-    <state width="1382" height="316" key="GridCell.Tab.0.center" timestamp="1604277685176">
+    <state width="1382" height="316" key="GridCell.Tab.0.bottom/1360.0.2560.1080/0.233.1360.768@1360.0.2560.1080" timestamp="1604279628392" />
+    <state width="1382" height="316" key="GridCell.Tab.0.center" timestamp="1604279628392">
       <screen x="1360" y="0" width="2560" height="1080" />
     </state>
-    <state width="1382" height="316" key="GridCell.Tab.0.center/1360.0.2560.1080/0.233.1360.768@1360.0.2560.1080" timestamp="1604277685176" />
-    <state width="1382" height="316" key="GridCell.Tab.0.left" timestamp="1604277685176">
+    <state width="1382" height="316" key="GridCell.Tab.0.center/1360.0.2560.1080/0.233.1360.768@1360.0.2560.1080" timestamp="1604279628392" />
+    <state width="1382" height="316" key="GridCell.Tab.0.left" timestamp="1604279628392">
       <screen x="1360" y="0" width="2560" height="1080" />
     </state>
-    <state width="1382" height="316" key="GridCell.Tab.0.left/1360.0.2560.1080/0.233.1360.768@1360.0.2560.1080" timestamp="1604277685176" />
-    <state width="1382" height="316" key="GridCell.Tab.0.right" timestamp="1604277685176">
+    <state width="1382" height="316" key="GridCell.Tab.0.left/1360.0.2560.1080/0.233.1360.768@1360.0.2560.1080" timestamp="1604279628392" />
+    <state width="1382" height="316" key="GridCell.Tab.0.right" timestamp="1604279628392">
       <screen x="1360" y="0" width="2560" height="1080" />
     </state>
-    <state width="1382" height="316" key="GridCell.Tab.0.right/1360.0.2560.1080/0.233.1360.768@1360.0.2560.1080" timestamp="1604277685176" />
-    <state width="1382" height="316" key="GridCell.Tab.1.bottom" timestamp="1604277685177">
+    <state width="1382" height="316" key="GridCell.Tab.0.right/1360.0.2560.1080/0.233.1360.768@1360.0.2560.1080" timestamp="1604279628392" />
+    <state width="0" height="0" key="GridCell.Tab.1.bottom" timestamp="1604279628339">
       <screen x="1360" y="0" width="2560" height="1080" />
     </state>
-    <state width="1382" height="316" key="GridCell.Tab.1.bottom/1360.0.2560.1080/0.233.1360.768@1360.0.2560.1080" timestamp="1604277685177" />
-    <state width="1382" height="316" key="GridCell.Tab.1.center" timestamp="1604277685176">
+    <state width="0" height="0" key="GridCell.Tab.1.bottom/1360.0.2560.1080/0.233.1360.768@1360.0.2560.1080" timestamp="1604279628339" />
+    <state width="0" height="0" key="GridCell.Tab.1.center" timestamp="1604279628339">
       <screen x="1360" y="0" width="2560" height="1080" />
     </state>
-    <state width="1382" height="316" key="GridCell.Tab.1.center/1360.0.2560.1080/0.233.1360.768@1360.0.2560.1080" timestamp="1604277685176" />
-    <state width="1382" height="316" key="GridCell.Tab.1.left" timestamp="1604277685176">
+    <state width="0" height="0" key="GridCell.Tab.1.center/1360.0.2560.1080/0.233.1360.768@1360.0.2560.1080" timestamp="1604279628339" />
+    <state width="0" height="0" key="GridCell.Tab.1.left" timestamp="1604279628339">
       <screen x="1360" y="0" width="2560" height="1080" />
     </state>
-    <state width="1382" height="316" key="GridCell.Tab.1.left/1360.0.2560.1080/0.233.1360.768@1360.0.2560.1080" timestamp="1604277685176" />
-    <state width="1382" height="316" key="GridCell.Tab.1.right" timestamp="1604277685177">
+    <state width="0" height="0" key="GridCell.Tab.1.left/1360.0.2560.1080/0.233.1360.768@1360.0.2560.1080" timestamp="1604279628339" />
+    <state width="0" height="0" key="GridCell.Tab.1.right" timestamp="1604279628339">
       <screen x="1360" y="0" width="2560" height="1080" />
     </state>
-    <state width="1382" height="316" key="GridCell.Tab.1.right/1360.0.2560.1080/0.233.1360.768@1360.0.2560.1080" timestamp="1604277685177" />
+    <state width="0" height="0" key="GridCell.Tab.1.right/1360.0.2560.1080/0.233.1360.768@1360.0.2560.1080" timestamp="1604279628339" />
     <state x="2172" y="314" width="728" height="482" key="MultipleFileMergeDialog" timestamp="1604270527395">
       <screen x="1360" y="0" width="2560" height="1080" />
     </state>
@@ -360,6 +362,10 @@
       <screen x="1360" y="0" width="2560" height="1080" />
     </state>
     <state x="1853" y="292" width="432" height="492" key="refactoring.ChangeSignatureDialog/1360.0.2560.1080/0.233.1360.768@1360.0.2560.1080" timestamp="1604276307761" />
+    <state x="1738" y="243" key="run.anything.popup" timestamp="1604279064134">
+      <screen x="1360" y="0" width="2560" height="1080" />
+    </state>
+    <state x="1738" y="243" key="run.anything.popup/1360.0.2560.1080/0.233.1360.768@1360.0.2560.1080" timestamp="1604279064134" />
     <state x="1734" y="258" key="search.everywhere.popup" timestamp="1603569783615">
       <screen x="1360" y="0" width="2560" height="1080" />
     </state>
@@ -395,38 +401,33 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/usuario/src/main/java/com/netflix/usuario/interfaces/controllers/UsuarioController.java</url>
-          <line>40</line>
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/usuario/src/main/java/com/netflix/usuario/interfaces/controllers/UsuarioController.java</url>
           <line>50</line>
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/usuario/src/main/java/com/netflix/usuario/application/services/UsuarioService.java</url>
-          <line>59</line>
+          <line>61</line>
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/usuario/src/main/java/com/netflix/usuario/application/services/UsuarioService.java</url>
-          <line>60</line>
+          <line>62</line>
           <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/usuario/src/main/java/com/netflix/usuario/interfaces/controllers/UsuarioController.java</url>
-          <line>42</line>
-          <option name="timeStamp" value="31" />
+          <line>59</line>
+          <option name="timeStamp" value="35" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/usuario/src/main/java/com/netflix/usuario/interfaces/controllers/UsuarioController.java</url>
-          <line>39</line>
-          <option name="timeStamp" value="33" />
+          <line>61</line>
+          <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/usuario/src/main/java/com/netflix/usuario/interfaces/controllers/UsuarioController.java</url>
-          <line>38</line>
-          <option name="timeStamp" value="34" />
+          <line>63</line>
+          <option name="timeStamp" value="37" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

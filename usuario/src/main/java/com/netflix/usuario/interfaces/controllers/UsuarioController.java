@@ -52,11 +52,14 @@ public class UsuarioController {
     }
 
     //SALVAR FILME PARA SER VISTO DEPOIS
-    @PostMapping("/salvar")
+    @PostMapping("minha-lista/salvar")
     public ResponseEntity salvar(
-            @RequestHeader Map<String, String> headers,
+            HttpServletRequest request,
             @RequestBody MinhaLista minhaLista) throws Exception {
-        getUsuarioUseCase.salvar(minhaLista);
+
+        Principal principal = request.getUserPrincipal();
+
+        getUsuarioUseCase.salvar(principal.getName(), minhaLista);
 
         return ResponseEntity.ok().build();
     }

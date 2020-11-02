@@ -29,9 +29,8 @@ public class MinhaListaEntity {
 
     }
 
-    public MinhaListaEntity(UsuarioEntity usuarioEntity, Long usuarioId,
-                            CatalogoSumarizadoEntity catalogoSumarizadoEntity,
-                            Long filme, Date dataEscolha) {
+    public MinhaListaEntity(UsuarioEntity usuarioEntity,
+                            CatalogoSumarizadoEntity catalogoSumarizadoEntity, Date dataEscolha) {
         this.usuarioEntity=usuarioEntity;
         this.filme=catalogoSumarizadoEntity;
         this.dataEscolha=dataEscolha;

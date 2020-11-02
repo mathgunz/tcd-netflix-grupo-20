@@ -11,7 +11,7 @@ public interface GetUsuarioUseCase {
 
     Optional<Usuario> getById(Long id) throws Exception;
 
-    void salvar (MinhaLista minhaLista);
+    void salvar (String userName ,MinhaLista minhaLista);
 
     List<HistoricoEntity> findAllHistorico(String userName);
 }
