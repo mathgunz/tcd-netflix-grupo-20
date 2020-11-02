@@ -8,16 +8,13 @@ public class HistoricoDTO implements Serializable {
 
     private Long id;
 
-    private UsuarioDTO usuario;
-
     private CatalogoSumarizadoDTO filme;
 
     @Temporal(TemporalType.TIMESTAMP)
     private Date criacao;
 
-    public HistoricoDTO(Long id, UsuarioDTO usuario, CatalogoSumarizadoDTO filme, Date criacao) {
+    public HistoricoDTO(Long id, CatalogoSumarizadoDTO filme, Date criacao) {
         this.id = id;
-        this.usuario = usuario;
         this.filme = filme;
         this.criacao = criacao;
     }
@@ -31,14 +28,6 @@ public class HistoricoDTO implements Serializable {
 
     public void setId(Long id) {
         this.id = id;
-    }
-
-    public UsuarioDTO getUsuario() {
-        return usuario;
-    }
-
-    public void setUsuario(UsuarioDTO usuario) {
-        this.usuario = usuario;
     }
 
     public CatalogoSumarizadoDTO getFilme() {

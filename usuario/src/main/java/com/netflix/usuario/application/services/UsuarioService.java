@@ -3,6 +3,9 @@ package com.netflix.usuario.application.services;
 import com.netflix.usuario.application.services.domains.MinhaLista;
 import com.netflix.usuario.application.services.domains.Usuario;
 import com.netflix.usuario.application.usecase.GetUsuarioUseCase;
+import com.netflix.usuario.repositories.CatalogoSumarizadoRepository;
+import com.netflix.usuario.repositories.MinhaListaRepository;
+import com.netflix.usuario.repositories.UsuarioRepository;
 import com.netflix.usuario.repositories.entities.*;
 import org.springframework.stereotype.Service;
 
@@ -53,8 +56,8 @@ public class UsuarioService implements GetUsuarioUseCase {
 
     //Listar Histórico do usuario
     @Override
-    public List<HistoricoEntity> findAllHistorico() {
-        List<HistoricoEntity> historicos = historicoRepository.findAll();
+    public List<HistoricoEntity> findAllHistorico(String userName) {
+        List<HistoricoEntity> historicos = historicoRepository.findAllByUsuarioEmail(userName);
         return historicos;
     }
 

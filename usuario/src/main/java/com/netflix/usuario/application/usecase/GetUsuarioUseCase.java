@@ -13,5 +13,5 @@ public interface GetUsuarioUseCase {
 
     void salvar (MinhaLista minhaLista);
 
-    List<HistoricoEntity> findAllHistorico();
+    List<HistoricoEntity> findAllHistorico(String userName);
 }

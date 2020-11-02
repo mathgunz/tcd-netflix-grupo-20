@@ -8,7 +8,7 @@ import javax.persistence.*;
 import java.io.Serializable;
 import java.util.Date;
 
-@Entity
+@Entity(name = "historico")
 @Table(name="historico", schema = "fiap")
 public class HistoricoEntity implements Serializable {
 

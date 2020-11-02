@@ -6,7 +6,7 @@ import javax.persistence.*;
 import java.util.Date;
 
 
-@Entity
+@Entity(name = "minhaLista")
 @Table(name="minha_lista", schema = "fiap")
 public class MinhaListaEntity {
 

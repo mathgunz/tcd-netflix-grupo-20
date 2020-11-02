@@ -2,18 +2,18 @@ com/netflix/usuario/configurations/ResourceServerConfiguration.java
  com.netflix.usuario.configurations.ResourceServerConfiguration
 com/netflix/usuario/configurations/WebSecurityConfiguration.java
  com.netflix.usuario.configurations.WebSecurityConfiguration
-com/netflix/usuario/repositories/entities/CatalogoSumarizadoRepository.java
- com.netflix.usuario.repositories.entities.CatalogoSumarizadoRepository
-com/netflix/usuario/application/usecase/GetUsuarioUseCase.java
- com.netflix.usuario.application.usecase.GetUsuarioUseCase
-com/netflix/usuario/repositories/entities/MinhaListaEntity.java
- com.netflix.usuario.repositories.entities.MinhaListaEntity
 com/netflix/usuario/repositories/entities/UsuarioEntity.java
  com.netflix.usuario.repositories.entities.UsuarioEntity
-com/netflix/usuario/repositories/entities/MinhaListaRepository.java
- com.netflix.usuario.repositories.entities.MinhaListaRepository
-com/netflix/usuario/repositories/entities/UsuarioRepository.java
- com.netflix.usuario.repositories.entities.UsuarioRepository
+com/netflix/usuario/interfaces/controllers/UsuarioDTO.java
+ com.netflix.usuario.interfaces.controllers.UsuarioDTO
+com/netflix/usuario/application/usecase/GetUsuarioUseCase.java
+ com.netflix.usuario.application.usecase.GetUsuarioUseCase
+com/netflix/usuario/repositories/entities/HistoricoEntity.java
+ com.netflix.usuario.repositories.entities.HistoricoEntity
+com/netflix/usuario/repositories/CatalogoSumarizadoRepository.java
+ com.netflix.usuario.repositories.CatalogoSumarizadoRepository
+com/netflix/usuario/application/services/UsuarioService.java
+ com.netflix.usuario.application.services.UsuarioService
 com/netflix/usuario/application/services/domains/Historico.java
  com.netflix.usuario.application.services.domains.Historico
 com/netflix/usuario/application/services/domains/Usuario.java
@@ -30,17 +30,17 @@ com/netflix/usuario/repositories/entities/CatalogoSumarizadoEntity.java
  com.netflix.usuario.repositories.entities.CatalogoSumarizadoEntity
 com/netflix/usuario/application/services/domains/CatalogoSumarizado.java
  com.netflix.usuario.application.services.domains.CatalogoSumarizado
-com/netflix/usuario/repositories/entities/HistoricoRepository.java
- com.netflix.usuario.repositories.entities.HistoricoRepository
-com/netflix/usuario/application/services/UsuarioService.java
- com.netflix.usuario.application.services.UsuarioService
-com/netflix/usuario/repositories/entities/HistoricoEntity.java
- com.netflix.usuario.repositories.entities.HistoricoEntity
-com/netflix/usuario/interfaces/controllers/UsuarioDTO.java
- com.netflix.usuario.interfaces.controllers.UsuarioDTO
-com/netflix/usuario/interfaces/controllers/UsuarioController.java
- com.netflix.usuario.interfaces.controllers.UsuarioController
 com/netflix/usuario/interfaces/controllers/CatalogoSumarizadoDTO.java
  com.netflix.usuario.interfaces.controllers.CatalogoSumarizadoDTO
+com/netflix/usuario/repositories/entities/HistoricoRepository.java
+ com.netflix.usuario.repositories.entities.HistoricoRepository
+com/netflix/usuario/repositories/entities/MinhaListaEntity.java
+ com.netflix.usuario.repositories.entities.MinhaListaEntity
+com/netflix/usuario/repositories/UsuarioRepository.java
+ com.netflix.usuario.repositories.UsuarioRepository
+com/netflix/usuario/repositories/MinhaListaRepository.java
+ com.netflix.usuario.repositories.MinhaListaRepository
+com/netflix/usuario/interfaces/controllers/UsuarioController.java
+ com.netflix.usuario.interfaces.controllers.UsuarioController
 com/netflix/usuario/interfaces/controllers/HistoricoDTO.java
  com.netflix.usuario.interfaces.controllers.HistoricoDTO

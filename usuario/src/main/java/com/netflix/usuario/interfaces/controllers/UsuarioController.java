@@ -7,6 +7,8 @@ import com.netflix.usuario.repositories.entities.HistoricoEntity;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import javax.servlet.http.HttpServletRequest;
+import java.security.Principal;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
@@ -32,19 +34,21 @@ public class UsuarioController {
 
     //LISTAR HISTORICO DO USUARIO
     @GetMapping("historicos")
-    public List<HistoricoDTO> findAllHistorico (){
-      List<HistoricoEntity> historicos = getUsuarioUseCase.findAllHistorico();
+    public List<HistoricoDTO> findAllHistorico(HttpServletRequest request){
 
-      List<HistoricoDTO> historicosDto = historicos.stream().map(historicoEntity ->
+        Principal principal = request.getUserPrincipal();
+
+        List<HistoricoEntity> historicos = getUsuarioUseCase.findAllHistorico(principal.getName());
+
+        List<HistoricoDTO> historicosDto = historicos.stream().map(historicoEntity ->
               new HistoricoDTO(historicoEntity.getId(),
-              new UsuarioDTO(historicoEntity.getUsuarioEntity().getNome(), historicoEntity.getUsuarioEntity().getTipoConta()),
               new CatalogoSumarizadoDTO(historicoEntity.getFilme().getId(),
                       historicoEntity.getFilme().getCatalogoId(),
                       historicoEntity.getFilme().getNome(),
                       historicoEntity.getFilme().getImagemCapa()),
               historicoEntity.getCriacao())).collect(Collectors.toList());
 
-      return historicosDto;
+        return historicosDto;
     }
 
     //SALVAR FILME PARA SER VISTO DEPOIS

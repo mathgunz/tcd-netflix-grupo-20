@@ -4,7 +4,7 @@ import javax.persistence.*;
 import java.util.Date;
 import java.util.List;
 
-@Entity
+@Entity(name = "usuario")
 @Table(name="usuario", schema = "fiap")
 public class UsuarioEntity {
 
