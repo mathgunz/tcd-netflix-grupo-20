@@ -5,11 +5,12 @@ import com.netflix.usuario.application.services.domains.CatalogoSumarizado;
 import com.netflix.usuario.application.services.domains.Usuario;
 
 import javax.persistence.*;
+import java.io.Serializable;
 import java.util.Date;
 
 @Entity
 @Table(name="historico", schema = "fiap")
-public class HistoricoEntity {
+public class HistoricoEntity implements Serializable {
 
     @Id
     @GeneratedValue(strategy= GenerationType.IDENTITY)

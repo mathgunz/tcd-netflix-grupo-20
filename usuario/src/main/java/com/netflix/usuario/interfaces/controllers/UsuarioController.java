@@ -10,9 +10,10 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
+import java.util.stream.Collectors;
 
 @RestController
-@RequestMapping("/usuario")
+@RequestMapping
 public class UsuarioController {
 
     private final GetUsuarioUseCase getUsuarioUseCase;
@@ -23,17 +24,27 @@ public class UsuarioController {
     }
 
     //METODO BUSCAR ID USUARIO
-    @GetMapping("{id}")
+    @GetMapping("usuario/{id}")
     public Usuario get(@PathVariable(value="id") Long id) throws Exception {
         Optional<Usuario> user= getUsuarioUseCase.getById(id);
         return user.orElseThrow(() -> new RuntimeException("Usuário não existe."));
     }
 
     //LISTAR HISTORICO DO USUARIO
-    @GetMapping
-    public List<HistoricoEntity> findAllHistorico (@RequestParam(value = "id", required = false) Long id){
+    @GetMapping("historicos")
+    public List<HistoricoDTO> findAllHistorico (){
       List<HistoricoEntity> historicos = getUsuarioUseCase.findAllHistorico();
-      return historicos;
+
+      List<HistoricoDTO> historicosDto = historicos.stream().map(historicoEntity ->
+              new HistoricoDTO(historicoEntity.getId(),
+              new UsuarioDTO(historicoEntity.getUsuarioEntity().getNome(), historicoEntity.getUsuarioEntity().getTipoConta()),
+              new CatalogoSumarizadoDTO(historicoEntity.getFilme().getId(),
+                      historicoEntity.getFilme().getCatalogoId(),
+                      historicoEntity.getFilme().getNome(),
+                      historicoEntity.getFilme().getImagemCapa()),
+              historicoEntity.getCriacao())).collect(Collectors.toList());
+
+      return historicosDto;
     }
 
     //SALVAR FILME PARA SER VISTO DEPOIS
@@ -42,6 +53,7 @@ public class UsuarioController {
             @RequestHeader Map<String, String> headers,
             @RequestBody MinhaLista minhaLista) throws Exception {
         getUsuarioUseCase.salvar(minhaLista);
+
         return ResponseEntity.ok().build();
     }
 }
