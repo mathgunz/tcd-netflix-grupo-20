@@ -1,7 +1,7 @@
 com/netflix/suporte/core/application/domains/Suporte.java
  com.netflix.suporte.core.application.domains.Suporte
-com/netflix/suporte/core/repositories/SuporteRepository.java
- com.netflix.suporte.core.repositories.SuporteRepository
+com/netflix/suporte/core/interfaces/listeners/SuporteListener.java
+ com.netflix.suporte.core.interfaces.listeners.SuporteListener
 com/netflix/suporte/core/application/services/domains/SuporteService.java
  com.netflix.suporte.core.application.services.domains.SuporteService
 com/netflix/suporte/core/application/usecases/SuporteUseCase.java
@@ -12,5 +12,5 @@ com/netflix/suporte/core/configurations/KafkaConsumerConfig.java
  com.netflix.suporte.core.configurations.KafkaConsumerConfig
 com/netflix/suporte/core/SuporteCoreApplication.java
  com.netflix.suporte.core.SuporteCoreApplication
-com/netflix/suporte/core/interfaces/listeners/SuporteListener.java
- com.netflix.suporte.core.interfaces.listeners.SuporteListener
+com/netflix/suporte/core/repositories/SuporteRepository.java
+ com.netflix.suporte.core.repositories.SuporteRepository

@@ -4,7 +4,7 @@ import javax.persistence.*;
 import java.util.Date;
 
 @Entity
-@Table(name="ranking", schema = "fiap")
+@Table(name="ranking", schema = "catalogo-fiap")
 public class RankingEntity {
 
     @Id
