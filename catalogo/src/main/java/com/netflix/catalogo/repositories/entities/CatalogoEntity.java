@@ -7,7 +7,7 @@ import javax.persistence.*;
 import java.util.List;
 
 @Entity(name = "catalogo")
-@Table(name="catalogo", schema = "catalogo-fiap")
+@Table(name="catalogo", schema = "catalogo_fiap")
 public class CatalogoEntity {
 
     @Id

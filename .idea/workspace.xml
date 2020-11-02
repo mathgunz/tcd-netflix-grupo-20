@@ -24,7 +24,26 @@
   <component name="ChangeListManager">
     <list default="true" id="a745bcbd-5534-4e13-8850-21d7217d7201" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalogo/.gradle/6.6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/catalogo/.gradle/6.6.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalogo/.gradle/6.6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/catalogo/.gradle/6.6.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalogo/.gradle/6.6.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/catalogo/.gradle/6.6.1/fileContent/fileContent.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalogo/.gradle/6.6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/catalogo/.gradle/6.6.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalogo/.gradle/6.6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/catalogo/.gradle/6.6.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalogo/.gradle/6.6.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/catalogo/.gradle/6.6.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalogo/.gradle/6.6.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/catalogo/.gradle/6.6.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalogo/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/catalogo/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalogo/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/catalogo/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalogo/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/catalogo/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalogo/src/main/java/com/netflix/catalogo/application/services/CatalogoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalogo/src/main/java/com/netflix/catalogo/application/services/CatalogoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalogo/src/main/java/com/netflix/catalogo/interfaces/controllers/CatalogoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalogo/src/main/java/com/netflix/catalogo/interfaces/controllers/CatalogoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalogo/src/main/java/com/netflix/catalogo/interfaces/controllers/dtos/CategoriaRatedDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalogo/src/main/java/com/netflix/catalogo/interfaces/controllers/dtos/CategoriaRatedDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalogo/src/main/java/com/netflix/catalogo/repositories/entities/CatalogoEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalogo/src/main/java/com/netflix/catalogo/repositories/entities/CatalogoEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalogo/src/main/java/com/netflix/catalogo/repositories/entities/RankingEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalogo/src/main/java/com/netflix/catalogo/repositories/entities/RankingEntity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/suporte-core/src/main/java/com/netflix/suporte/core/repositories/entities/SuporteEntiy.java" beforeDir="false" afterPath="$PROJECT_DIR$/suporte-core/src/main/java/com/netflix/suporte/core/repositories/entities/SuporteEntiy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuario/src/main/java/com/netflix/usuario/repositories/entities/CatalogoSumarizadoEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/usuario/src/main/java/com/netflix/usuario/repositories/entities/CatalogoSumarizadoEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuario/src/main/java/com/netflix/usuario/repositories/entities/HistoricoEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/usuario/src/main/java/com/netflix/usuario/repositories/entities/HistoricoEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuario/src/main/java/com/netflix/usuario/repositories/entities/MinhaListaEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/usuario/src/main/java/com/netflix/usuario/repositories/entities/MinhaListaEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuario/src/main/java/com/netflix/usuario/repositories/entities/UsuarioEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/usuario/src/main/java/com/netflix/usuario/repositories/entities/UsuarioEntity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -291,46 +310,46 @@
       <screen x="1360" y="0" width="2560" height="1080" />
     </state>
     <state x="1854" y="309" width="653" height="491" key="FileChooserDialogImpl/1360.0.2560.1080/0.233.1360.768@1360.0.2560.1080" timestamp="1604264953142" />
-    <state width="2514" height="261" key="GridCell.Tab.0.bottom" timestamp="1604281866251">
+    <state width="1382" height="330" key="GridCell.Tab.0.bottom" timestamp="1604284161897">
       <screen x="1360" y="0" width="2560" height="1080" />
     </state>
-    <state width="2514" height="261" key="GridCell.Tab.0.bottom/1360.0.2560.1080/0.233.1360.768@1360.0.2560.1080" timestamp="1604281866251" />
-    <state width="2514" height="261" key="GridCell.Tab.0.center" timestamp="1604281866250">
+    <state width="1382" height="330" key="GridCell.Tab.0.bottom/1360.0.2560.1080/0.233.1360.768@1360.0.2560.1080" timestamp="1604284161897" />
+    <state width="1382" height="330" key="GridCell.Tab.0.center" timestamp="1604284161896">
       <screen x="1360" y="0" width="2560" height="1080" />
     </state>
-    <state width="2514" height="261" key="GridCell.Tab.0.center/1360.0.2560.1080/0.233.1360.768@1360.0.2560.1080" timestamp="1604281866250" />
-    <state width="2514" height="261" key="GridCell.Tab.0.left" timestamp="1604281866250">
+    <state width="1382" height="330" key="GridCell.Tab.0.center/1360.0.2560.1080/0.233.1360.768@1360.0.2560.1080" timestamp="1604284161896" />
+    <state width="1382" height="330" key="GridCell.Tab.0.left" timestamp="1604284161896">
       <screen x="1360" y="0" width="2560" height="1080" />
     </state>
-    <state width="2514" height="261" key="GridCell.Tab.0.left/1360.0.2560.1080/0.233.1360.768@1360.0.2560.1080" timestamp="1604281866250" />
-    <state width="2514" height="261" key="GridCell.Tab.0.right" timestamp="1604281866250">
+    <state width="1382" height="330" key="GridCell.Tab.0.left/1360.0.2560.1080/0.233.1360.768@1360.0.2560.1080" timestamp="1604284161896" />
+    <state width="1382" height="330" key="GridCell.Tab.0.right" timestamp="1604284161896">
       <screen x="1360" y="0" width="2560" height="1080" />
     </state>
-    <state width="2514" height="261" key="GridCell.Tab.0.right/1360.0.2560.1080/0.233.1360.768@1360.0.2560.1080" timestamp="1604281866250" />
-    <state width="1382" height="316" key="GridCell.Tab.1.bottom" timestamp="1604280015249">
+    <state width="1382" height="330" key="GridCell.Tab.0.right/1360.0.2560.1080/0.233.1360.768@1360.0.2560.1080" timestamp="1604284161896" />
+    <state width="0" height="0" key="GridCell.Tab.1.bottom" timestamp="1604284161855">
       <screen x="1360" y="0" width="2560" height="1080" />
     </state>
-    <state width="1382" height="316" key="GridCell.Tab.1.bottom/1360.0.2560.1080/0.233.1360.768@1360.0.2560.1080" timestamp="1604280015249" />
-    <state width="1382" height="316" key="GridCell.Tab.1.center" timestamp="1604280015249">
+    <state width="0" height="0" key="GridCell.Tab.1.bottom/1360.0.2560.1080/0.233.1360.768@1360.0.2560.1080" timestamp="1604284161855" />
+    <state width="0" height="0" key="GridCell.Tab.1.center" timestamp="1604284161855">
       <screen x="1360" y="0" width="2560" height="1080" />
     </state>
-    <state width="1382" height="316" key="GridCell.Tab.1.center/1360.0.2560.1080/0.233.1360.768@1360.0.2560.1080" timestamp="1604280015249" />
-    <state width="1382" height="316" key="GridCell.Tab.1.left" timestamp="1604280015249">
+    <state width="0" height="0" key="GridCell.Tab.1.center/1360.0.2560.1080/0.233.1360.768@1360.0.2560.1080" timestamp="1604284161855" />
+    <state width="0" height="0" key="GridCell.Tab.1.left" timestamp="1604284161855">
       <screen x="1360" y="0" width="2560" height="1080" />
     </state>
-    <state width="1382" height="316" key="GridCell.Tab.1.left/1360.0.2560.1080/0.233.1360.768@1360.0.2560.1080" timestamp="1604280015249" />
-    <state width="1382" height="316" key="GridCell.Tab.1.right" timestamp="1604280015249">
+    <state width="0" height="0" key="GridCell.Tab.1.left/1360.0.2560.1080/0.233.1360.768@1360.0.2560.1080" timestamp="1604284161855" />
+    <state width="0" height="0" key="GridCell.Tab.1.right" timestamp="1604284161855">
       <screen x="1360" y="0" width="2560" height="1080" />
     </state>
-    <state width="1382" height="316" key="GridCell.Tab.1.right/1360.0.2560.1080/0.233.1360.768@1360.0.2560.1080" timestamp="1604280015249" />
+    <state width="0" height="0" key="GridCell.Tab.1.right/1360.0.2560.1080/0.233.1360.768@1360.0.2560.1080" timestamp="1604284161855" />
     <state x="2172" y="314" width="728" height="482" key="MultipleFileMergeDialog" timestamp="1604270527395">
       <screen x="1360" y="0" width="2560" height="1080" />
     </state>
     <state x="2172" y="314" width="728" height="482" key="MultipleFileMergeDialog/1360.0.2560.1080/0.233.1360.768@1360.0.2560.1080" timestamp="1604270527395" />
-    <state x="1666" y="287" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1604281892531">
+    <state x="1666" y="287" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1604283174257">
       <screen x="1360" y="0" width="2560" height="1080" />
     </state>
-    <state x="1666" y="287" width="800" height="535" key="Vcs.Push.Dialog.v2/1360.0.2560.1080/0.233.1360.768@1360.0.2560.1080" timestamp="1604281892531" />
+    <state x="1666" y="287" width="800" height="535" key="Vcs.Push.Dialog.v2/1360.0.2560.1080/0.233.1360.768@1360.0.2560.1080" timestamp="1604283174257" />
     <state x="3017" y="32" width="903" height="683" key="dock-window-1" timestamp="1604275500131">
       <screen x="1360" y="0" width="2560" height="1080" />
     </state>

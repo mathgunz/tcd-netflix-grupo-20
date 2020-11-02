@@ -27,27 +27,27 @@ com/netflix/catalogo/repositories/entities/enums/CategoriaEnum.java
  com.netflix.catalogo.repositories.entities.enums.CategoriaEnum$1
  com.netflix.catalogo.repositories.entities.enums.CategoriaEnum$2
  com.netflix.catalogo.repositories.entities.enums.CategoriaEnum$3
-com/netflix/catalogo/application/services/CatalogoService.java
- com.netflix.catalogo.application.services.CatalogoService
-com/netflix/catalogo/repositories/entities/CatalogoEntity.java
- com.netflix.catalogo.repositories.entities.CatalogoEntity
+com/netflix/catalogo/configurations/WebSecurityConfiguration.java
+ com.netflix.catalogo.configurations.WebSecurityConfiguration
+com/netflix/catalogo/application/usecases/GetRankingUseCase.java
+ com.netflix.catalogo.application.usecases.GetRankingUseCase
 com/netflix/catalogo/application/services/domains/Ranking.java
  com.netflix.catalogo.application.services.domains.Ranking
 com/netflix/catalogo/CatalogoApplication.java
  com.netflix.catalogo.CatalogoApplication
-com/netflix/catalogo/repositories/entities/RankingEntity.java
- com.netflix.catalogo.repositories.entities.RankingEntity
+com/netflix/catalogo/interfaces/controllers/dtos/CategoriaRatedDTO.java
+ com.netflix.catalogo.interfaces.controllers.dtos.CategoriaRatedDTO
 com/netflix/catalogo/application/usecases/GetCatalogoUseCase.java
  com.netflix.catalogo.application.usecases.GetCatalogoUseCase
 com/netflix/catalogo/interfaces/controllers/dtos/GeneroDTO.java
  com.netflix.catalogo.interfaces.controllers.dtos.GeneroDTO
-com/netflix/catalogo/configurations/WebSecurityConfiguration.java
- com.netflix.catalogo.configurations.WebSecurityConfiguration
-com/netflix/catalogo/interfaces/controllers/dtos/CategoriaRatedDTO.java
- com.netflix.catalogo.interfaces.controllers.dtos.CategoriaRatedDTO
 com/netflix/catalogo/interfaces/controllers/CatalogoController.java
  com.netflix.catalogo.interfaces.controllers.CatalogoController
-com/netflix/catalogo/application/usecases/GetRankingUseCase.java
- com.netflix.catalogo.application.usecases.GetRankingUseCase
+com/netflix/catalogo/application/services/CatalogoService.java
+ com.netflix.catalogo.application.services.CatalogoService
+com/netflix/catalogo/repositories/entities/CatalogoEntity.java
+ com.netflix.catalogo.repositories.entities.CatalogoEntity
+com/netflix/catalogo/repositories/entities/RankingEntity.java
+ com.netflix.catalogo.repositories.entities.RankingEntity
 com/netflix/catalogo/application/services/RankingService.java
  com.netflix.catalogo.application.services.RankingService

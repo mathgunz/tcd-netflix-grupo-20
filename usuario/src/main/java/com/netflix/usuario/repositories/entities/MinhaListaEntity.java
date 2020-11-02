@@ -7,7 +7,7 @@ import java.util.Date;
 
 
 @Entity(name = "minhaLista")
-@Table(name="minha_lista", schema = "usuario-fiap")
+@Table(name="minha_lista", schema = "usuario_fiap")
 public class MinhaListaEntity {
 
     @Id

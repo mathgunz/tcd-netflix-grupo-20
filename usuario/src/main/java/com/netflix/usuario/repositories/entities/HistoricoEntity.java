@@ -9,7 +9,7 @@ import java.io.Serializable;
 import java.util.Date;
 
 @Entity(name = "historico")
-@Table(name="historico", schema = "usuario-fiap")
+@Table(name="historico", schema = "usuario_fiap")
 public class HistoricoEntity implements Serializable {
 
     @Id

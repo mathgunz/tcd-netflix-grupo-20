@@ -3,11 +3,13 @@ package com.netflix.catalogo.interfaces.controllers;
 import com.netflix.catalogo.application.services.domains.Catalogo;
 import com.netflix.catalogo.application.usecases.GetCatalogoUseCase;
 import com.netflix.catalogo.interfaces.controllers.dtos.CategoriaRatedDTO;
+import com.netflix.catalogo.interfaces.controllers.dtos.GeneroDTO;
+import com.netflix.catalogo.repositories.entities.CatalogoEntity;
 import com.netflix.catalogo.repositories.entities.enums.GeneroEnum;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.List;
-import java.util.Optional;
+import java.util.*;
+import java.util.stream.Collectors;
 
 @RequestMapping("/catalogos")
 @RestController
@@ -36,8 +38,10 @@ public class CatalogoController {
 
     public List<CategoriaRatedDTO> findAllMostRatedByGenero(@RequestParam(value = "genero", required = false) GeneroEnum genero){
 
-        getCatalogoUseCase.findAllMostRatedByGeneroUseCase();
+        List<CatalogoEntity> catalogoEntity = getCatalogoUseCase.findAllMostRatedByGeneroUseCase();
 
-        return null;
+        List<CategoriaRatedDTO> list = catalogoEntity.stream().map(CategoriaRatedDTO::new).collect(Collectors.toList());
+
+        return list;
     }
 }

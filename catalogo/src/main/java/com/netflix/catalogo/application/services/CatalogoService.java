@@ -43,7 +43,8 @@ public class CatalogoService implements GetCatalogoUseCase {
     public List<CatalogoEntity> findAllMostRatedByGeneroUseCase() {
 
         List<CatalogoEntity> catalogs = catalogoRepository.findAll();
-        return null;
+
+        return catalogs;
     }
 
     private Catalogo toDomain(CatalogoEntity catalogoEntity) {
