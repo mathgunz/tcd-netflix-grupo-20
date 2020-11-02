@@ -63,11 +63,6 @@ public class UsuarioService implements GetUsuarioUseCase {
         return historicos;
     }
 
-
-    public void carregarDados(){
-
-    }
-
     private Usuario toDomain(UsuarioEntity usuarioEntity){
         return Usuario.newBuilder()
                 .withId(usuarioEntity.getId())
