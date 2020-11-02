@@ -4,7 +4,7 @@ import javax.persistence.*;
 import java.util.Date;
 
 @Entity
-@Table(name="suporte", schema = "fiap")
+@Table(name="suporte", schema = "usuario-fiap")
 public class SuporteEntiy {
 
     @Id
